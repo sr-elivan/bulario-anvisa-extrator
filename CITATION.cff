@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Se usar este software ou os dados, cite-o como abaixo."
+title: "Extrator de bulas do Bulário Eletrônico da Anvisa e dados do estudo de interações graves em bulas de estatinas"
+version: 0.2.0
+date-released: 2026-11-15
+license: [MIT, CC-BY-4.0]
+doi: "10.5281/zenodo.24205712"
+repository-code: "https://github.com/sr-elivan/bulario-anvisa-extrator"
+authors:
+  - family-names: "Silva"
+    name-particle: "da"
+    given-names: "Elivan"
+    affiliation: "Centro Universitário Estácio da Amazônia"
+    orcid: "https://orcid.org/0009-0005-9191-7846"
+  - family-names: "Galvão"
+    given-names: "Lohana Souza"
+    affiliation: "Centro Universitário Estácio da Amazônia"
+    orcid: "https://orcid.org/0009-0006-9034-9004"
+  - family-names: "Brito"
+    given-names: "Ana Beatriz Lucena"
+    affiliation: "Centro Universitário Estácio da Amazônia"
+    orcid: "https://orcid.org/0009-0000-8860-5001"
+  - family-names: "Souza"
+    given-names: "Iara Leão Luna de"
+    affiliation: "Centro Universitário Estácio da Amazônia"
+    orcid: "https://orcid.org/0000-0002-5309-2979"
+keywords: [bulas, Anvisa, interações medicamentosas, estatinas, extração de texto, segurança do paciente]

@@ -1,0 +1,52 @@
+{
+  "title": "Extrator de bulas do Bulário Eletrônico da Anvisa e dados do estudo de interações graves em bulas de estatinas",
+  "upload_type": "software",
+  "description": "Ferramenta aberta que transforma bulas profissionais em PDF (RDC 47/2009) do Bulário Eletrônico da Anvisa em dados estruturados e banco pesquisável, e reproduz com um comando o estudo de completude das interações medicamentosas graves nas bulas brasileiras de estatinas (92 bulas; referência Drugs.com, 13/11/2026). O motor de classificação é configurável por tabelas (fármacos, classes e expressões de manejo). Licenças: código MIT; dados produzidos no estudo CC BY 4.0; a lista de interações graves do Drugs.com não é coberta pela CC BY (ver LICENSE-DATA). Versão auditada antes da publicação; mudanças e decisões em NOTAS_DE_VERSAO.md.",
+  "creators": [
+    {
+      "name": "Silva, Elivan da",
+      "affiliation": "Centro Universitário Estácio da Amazônia",
+      "orcid": "0009-0005-9191-7846"
+    },
+    {
+      "name": "Galvão, Lohana Souza",
+      "affiliation": "Centro Universitário Estácio da Amazônia",
+      "orcid": "0009-0006-9034-9004"
+    },
+    {
+      "name": "Brito, Ana Beatriz Lucena",
+      "affiliation": "Centro Universitário Estácio da Amazônia",
+      "orcid": "0009-0000-8860-5001"
+    },
+    {
+      "name": "Souza, Iara Leão Luna de",
+      "affiliation": "Centro Universitário Estácio da Amazônia",
+      "orcid": "0000-0002-5309-2979"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Souza, Iara Leão Luna de",
+      "type": "Supervisor",
+      "orcid": "0000-0002-5309-2979",
+      "affiliation": "Centro Universitário Estácio da Amazônia"
+    }
+  ],
+  "keywords": [
+    "bulas",
+    "Anvisa",
+    "interações medicamentosas",
+    "estatinas",
+    "extração de texto"
+  ],
+  "license": "MIT",
+  "language": "por",
+  "version": "0.2.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sr-elivan/bulario-anvisa-extrator",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    }
+  ]
+}

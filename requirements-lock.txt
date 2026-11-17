@@ -1,0 +1,7 @@
+# versões exatas usadas no estudo (Python 3.13.15; Poppler/pdftotext 4.00; Windows 11)
+pymupdf==1.28.2
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+openpyxl==3.1.5
+pytest==9.2.0

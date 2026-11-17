@@ -1,0 +1,360 @@
+{
+ "fonte": "pré-classificação automática",
+ "n_bulas": 92,
+ "n_pares": 4211,
+ "geral": {
+  "ampla": {
+   "mediana": 72.4,
+   "iiq": "71.9–72.5"
+  },
+  "estrita": {
+   "mediana": 40.8,
+   "iiq": "35.4–52.5"
+  },
+  "ampla_br": {
+   "mediana": 66.7,
+   "iiq": "66.7–72.7"
+  }
+ },
+ "por_estatina": {
+  "atorvastatina": {
+   "bulas": 19,
+   "ampla": {
+    "mediana": 79.6,
+    "iiq": "79.6–79.6",
+    "min": 77.6,
+    "max": 79.6
+   },
+   "estrita": {
+    "mediana": 40.8,
+    "iiq": "39.8–40.8",
+    "min": 34.7,
+    "max": 40.8
+   },
+   "ampla_br": {
+    "mediana": 80.0,
+    "iiq": "80.0–80.0",
+    "min": 76.0,
+    "max": 80.0
+   },
+   "por_categoria": {
+    "Genérico": 79.6,
+    "Novo": 79.6,
+    "Similar": 79.6
+   }
+  },
+  "pitavastatina": {
+   "bulas": 10,
+   "ampla": {
+    "mediana": 40.0,
+    "iiq": "40.0–40.0",
+    "min": 40.0,
+    "max": 40.0
+   },
+   "estrita": {
+    "mediana": 30.0,
+    "iiq": "30.0–30.0",
+    "min": 30.0,
+    "max": 30.0
+   },
+   "ampla_br": {
+    "mediana": 38.5,
+    "iiq": "38.5–38.5",
+    "min": 38.5,
+    "max": 38.5
+   },
+   "por_categoria": {
+    "Genérico": 40.0,
+    "Novo": 40.0,
+    "Similar": 40.0
+   }
+  },
+  "pravastatina": {
+   "bulas": 2,
+   "ampla": {
+    "mediana": 60.0,
+    "iiq": "60.0–60.0",
+    "min": 60.0,
+    "max": 60.0
+   },
+   "estrita": {
+    "mediana": 40.0,
+    "iiq": "40.0–40.0",
+    "min": 40.0,
+    "max": 40.0
+   },
+   "ampla_br": {
+    "mediana": 61.5,
+    "iiq": "61.5–61.5",
+    "min": 61.5,
+    "max": 61.5
+   },
+   "por_categoria": {
+    "Genérico": 60.0
+   }
+  },
+  "rosuvastatina": {
+   "bulas": 37,
+   "ampla": {
+    "mediana": 72.5,
+    "iiq": "70.0–72.5",
+    "min": 67.5,
+    "max": 72.5
+   },
+   "estrita": {
+    "mediana": 52.5,
+    "iiq": "50.0–52.5",
+    "min": 47.5,
+    "max": 52.5
+   },
+   "ampla_br": {
+    "mediana": 66.7,
+    "iiq": "66.7–66.7",
+    "min": 62.5,
+    "max": 66.7
+   },
+   "por_categoria": {
+    "Genérico": 72.5,
+    "Novo": 72.5,
+    "Similar": 72.5
+   }
+  },
+  "sinvastatina": {
+   "bulas": 24,
+   "ampla": {
+    "mediana": 72.3,
+    "iiq": "72.3–72.3",
+    "min": 70.8,
+    "max": 72.3
+   },
+   "estrita": {
+    "mediana": 35.4,
+    "iiq": "35.4–35.4",
+    "min": 33.8,
+    "max": 35.4
+   },
+   "ampla_br": {
+    "mediana": 72.7,
+    "iiq": "72.7–72.7",
+    "min": 69.7,
+    "max": 72.7
+   },
+   "por_categoria": {
+    "Genérico": 72.3,
+    "Similar": 72.3
+   }
+  }
+ },
+ "por_categoria": {
+  "Genérico": {
+   "bulas": 54,
+   "ampla": 72.4,
+   "iiq": "70.2–72.5"
+  },
+  "Novo": {
+   "bulas": 3,
+   "ampla": 72.5,
+   "iiq": "56.2–76.0"
+  },
+  "Similar": {
+   "bulas": 35,
+   "ampla": 72.3,
+   "iiq": "72.3–72.5"
+  }
+ },
+ "kruskal_categorias_geral": 0.963,
+ "generico_vs_similar_por_estatina": {
+  "atorvastatina": 0.218,
+  "pitavastatina": "valores idênticos",
+  "rosuvastatina": 0.854,
+  "sinvastatina": 0.403
+ },
+ "manejo_entre_citadas": {
+  "contraindicar/evitar": 1143,
+  "monitorar": 823,
+  "sem orientacao": 531,
+  "limite de dose": 529
+ },
+ "local_entre_citadas": {
+  "ambas": 1712,
+  "secao de interacoes": 1026,
+  "outra secao": 288
+ },
+ "mais_omitidas_registro_br": [
+  {
+   "estatina": "atorvastatina",
+   "farmaco_dcb": "leflunomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "atorvastatina",
+   "farmaco_dcb": "lenalidomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "atorvastatina",
+   "farmaco_dcb": "lomitapida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "atorvastatina",
+   "farmaco_dcb": "nicotinamida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "atorvastatina",
+   "farmaco_dcb": "teriflunomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pitavastatina",
+   "farmaco_dcb": "cetoconazol",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pitavastatina",
+   "farmaco_dcb": "daptomicina",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pitavastatina",
+   "farmaco_dcb": "leflunomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pitavastatina",
+   "farmaco_dcb": "lenalidomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pitavastatina",
+   "farmaco_dcb": "letermovir",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pitavastatina",
+   "farmaco_dcb": "lomitapida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pitavastatina",
+   "farmaco_dcb": "nicotinamida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pitavastatina",
+   "farmaco_dcb": "teriflunomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pravastatina",
+   "farmaco_dcb": "daptomicina",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pravastatina",
+   "farmaco_dcb": "leflunomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pravastatina",
+   "farmaco_dcb": "lomitapida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pravastatina",
+   "farmaco_dcb": "teriflunomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "pravastatina",
+   "farmaco_dcb": "ácido bempedoico",
+   "omite": 100.0
+  },
+  {
+   "estatina": "rosuvastatina",
+   "farmaco_dcb": "asciminibe",
+   "omite": 100.0
+  },
+  {
+   "estatina": "rosuvastatina",
+   "farmaco_dcb": "colchicina",
+   "omite": 100.0
+  },
+  {
+   "estatina": "rosuvastatina",
+   "farmaco_dcb": "danicopana",
+   "omite": 100.0
+  },
+  {
+   "estatina": "rosuvastatina",
+   "farmaco_dcb": "daptomicina",
+   "omite": 100.0
+  },
+  {
+   "estatina": "rosuvastatina",
+   "farmaco_dcb": "leflunomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "rosuvastatina",
+   "farmaco_dcb": "lenalidomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "rosuvastatina",
+   "farmaco_dcb": "lomitapida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "rosuvastatina",
+   "farmaco_dcb": "nicotinamida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "sinvastatina",
+   "farmaco_dcb": "fluconazol",
+   "omite": 100.0
+  },
+  {
+   "estatina": "sinvastatina",
+   "farmaco_dcb": "leflunomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "sinvastatina",
+   "farmaco_dcb": "lenalidomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "sinvastatina",
+   "farmaco_dcb": "levanlodipino",
+   "omite": 100.0
+  },
+  {
+   "estatina": "sinvastatina",
+   "farmaco_dcb": "morfina",
+   "omite": 100.0
+  },
+  {
+   "estatina": "sinvastatina",
+   "farmaco_dcb": "nicotinamida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "sinvastatina",
+   "farmaco_dcb": "ranolazina",
+   "omite": 100.0
+  },
+  {
+   "estatina": "sinvastatina",
+   "farmaco_dcb": "teriflunomida",
+   "omite": 100.0
+  },
+  {
+   "estatina": "sinvastatina",
+   "farmaco_dcb": "ácido bempedoico",
+   "omite": 100.0
+  }
+ ]
+}

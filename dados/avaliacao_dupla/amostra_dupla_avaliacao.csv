@@ -1,0 +1,478 @@
+﻿id_bula;farmaco_dcb;registro_ms;estatina;citacao_avaliador1;manejo_avaliador1;citacao_avaliadora2;manejo_avaliadora2
+B005;adagrasibe;155840418;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B005;amprenavir;155840418;atorvastatina;classe;limite de dose;classe;sem orientacao
+B005;atazanavir;155840418;atorvastatina;classe;limite de dose;classe;sem orientacao
+B005;boceprevir;155840418;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B005;cetoconazol;155840418;atorvastatina;classe;limite de dose;classe;monitorar
+B005;ciclosporina;155840418;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B005;claritromicina;155840418;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B005;clofibrato;155840418;atorvastatina;classe;limite de dose;classe;sem orientacao
+B005;colchicina;155840418;atorvastatina;nominal;monitorar;nominal;monitorar
+B005;conivaptana;155840418;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B005;danazol;155840418;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B005;daptomicina;155840418;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B005;daraxonrasibe;155840418;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B005;darunavir;155840418;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B005;eritromicina;155840418;atorvastatina;nominal;limite de dose;nominal;monitorar
+B005;fenofibrato;155840418;atorvastatina;nominal;limite de dose;nominal;monitorar
+B005;fluconazol;155840418;atorvastatina;classe;limite de dose;classe;monitorar
+B005;fosamprenavir;155840418;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B005;genfibrozila;155840418;atorvastatina;nominal;limite de dose;nominal;monitorar
+B005;indinavir;155840418;atorvastatina;classe;limite de dose;classe;sem orientacao
+B005;itraconazol;155840418;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B005;leflunomida;155840418;atorvastatina;nao citada;nao se aplica;classe;limite de dose
+B005;lenalidomida;155840418;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B005;letermovir;155840418;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B005;levocetoconazol;155840418;atorvastatina;classe;limite de dose;classe;sem orientacao
+B005;lomitapida;155840418;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B005;lonafarnibe;155840418;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B005;mibefradil;155840418;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B005;mipomerseno;155840418;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B005;nefazodona;155840418;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B005;nelfinavir;155840418;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B005;niacina (ácido nicotínico);155840418;atorvastatina;nominal;limite de dose;nominal;monitorar
+B005;nicotinamida;155840418;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B005;pexidartinibe;155840418;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B005;posaconazol;155840418;atorvastatina;classe;limite de dose;classe;monitorar
+B005;ranolazina;155840418;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B005;resmetirom;155840418;atorvastatina;nao citada;nao se aplica;classe;limite de dose
+B005;rifampicina;155840418;atorvastatina;nominal;monitorar;nominal;monitorar
+B005;ritonavir;155840418;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B005;saquinavir;155840418;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B005;simeprevir;155840418;atorvastatina;classe;limite de dose;classe;limite de dose
+B005;telaprevir;155840418;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B005;telitromicina;155840418;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B005;teriflunomida;155840418;atorvastatina;nao citada;nao se aplica;classe;limite de dose
+B005;tipranavir;155840418;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B005;troleandomicina;155840418;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B005;vadadustate;155840418;atorvastatina;nao citada;nao se aplica;classe;limite de dose
+B005;voriconazol;155840418;atorvastatina;classe;limite de dose;classe;monitorar
+B005;ácido fenofíbrico;155840418;atorvastatina;classe;limite de dose;classe;monitorar
+B014;adagrasibe;188300088;atorvastatina;classe;sem orientacao;classe;monitorar
+B014;amprenavir;188300088;atorvastatina;classe;limite de dose;classe;monitorar
+B014;atazanavir;188300088;atorvastatina;classe;limite de dose;classe;monitorar
+B014;boceprevir;188300088;atorvastatina;nominal;limite de dose;nominal;monitorar
+B014;cetoconazol;188300088;atorvastatina;classe;limite de dose;classe;monitorar
+B014;ciclosporina;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;claritromicina;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;clofibrato;188300088;atorvastatina;classe;limite de dose;classe;monitorar
+B014;colchicina;188300088;atorvastatina;nominal;monitorar;nominal;sem orientacao
+B014;conivaptana;188300088;atorvastatina;classe;sem orientacao;classe;monitorar
+B014;danazol;188300088;atorvastatina;classe;sem orientacao;classe;monitorar
+B014;daptomicina;188300088;atorvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B014;daraxonrasibe;188300088;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B014;darunavir;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;eritromicina;188300088;atorvastatina;nominal;limite de dose;nominal;monitorar
+B014;fenofibrato;188300088;atorvastatina;nominal;limite de dose;nominal;monitorar
+B014;fluconazol;188300088;atorvastatina;classe;limite de dose;classe;monitorar
+B014;fosamprenavir;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;genfibrozila;188300088;atorvastatina;nominal;limite de dose;nominal;monitorar
+B014;indinavir;188300088;atorvastatina;classe;limite de dose;classe;monitorar
+B014;itraconazol;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;leflunomida;188300088;atorvastatina;nao citada;nao se aplica;classe;limite de dose
+B014;lenalidomida;188300088;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B014;letermovir;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;levocetoconazol;188300088;atorvastatina;classe;limite de dose;classe;monitorar
+B014;lomitapida;188300088;atorvastatina;classe;sem orientacao;classe;monitorar
+B014;lonafarnibe;188300088;atorvastatina;classe;sem orientacao;classe;monitorar
+B014;mibefradil;188300088;atorvastatina;classe;sem orientacao;classe;monitorar
+B014;mipomerseno;188300088;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B014;nefazodona;188300088;atorvastatina;classe;sem orientacao;classe;monitorar
+B014;nelfinavir;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;niacina (ácido nicotínico);188300088;atorvastatina;nominal;limite de dose;nominal;monitorar
+B014;nicotinamida;188300088;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B014;pexidartinibe;188300088;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B014;posaconazol;188300088;atorvastatina;classe;limite de dose;classe;monitorar
+B014;ranolazina;188300088;atorvastatina;classe;sem orientacao;classe;monitorar
+B014;resmetirom;188300088;atorvastatina;nao citada;nao se aplica;classe;limite de dose
+B014;rifampicina;188300088;atorvastatina;nominal;monitorar;nominal;monitorar
+B014;ritonavir;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;saquinavir;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;simeprevir;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;telaprevir;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;telitromicina;188300088;atorvastatina;classe;sem orientacao;classe;monitorar
+B014;teriflunomida;188300088;atorvastatina;nao citada;nao se aplica;classe;limite de dose
+B014;tipranavir;188300088;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B014;troleandomicina;188300088;atorvastatina;classe;sem orientacao;classe;monitorar
+B014;vadadustate;188300088;atorvastatina;nao citada;nao se aplica;classe;monitorar
+B014;voriconazol;188300088;atorvastatina;classe;limite de dose;classe;monitorar
+B014;ácido fenofíbrico;188300088;atorvastatina;classe;limite de dose;classe;monitorar
+B017;amprenavir;116180200;rosuvastatina;classe;limite de dose;classe;sem orientacao
+B017;asciminibe;116180200;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B017;atazanavir;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;capmatinibe;116180200;rosuvastatina;nominal;limite de dose;classe;contraindicar/evitar
+B017;cetoconazol;116180200;rosuvastatina;nominal;monitorar;classe;sem orientacao
+B017;ciclosporina;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;clofibrato;116180200;rosuvastatina;classe;sem orientacao;classe;sem orientacao
+B017;clopidogrel;116180200;rosuvastatina;nominal;sem orientacao;nominal;sem orientacao
+B017;colchicina;116180200;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B017;danicopana;116180200;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B017;daptomicina;116180200;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B017;darolutamida;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;darunavir;116180200;rosuvastatina;nominal;limite de dose;classe;contraindicar/evitar
+B017;enasidenibe;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;febuxostate;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;fenofibrato;116180200;rosuvastatina;nominal;sem orientacao;nominal;sem orientacao
+B017;fostamatinibe;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;genfibrozila;116180200;rosuvastatina;nominal;limite de dose;nominal;sem orientacao
+B017;indinavir;116180200;rosuvastatina;classe;limite de dose;classe;limite de dose
+B017;leflunomida;116180200;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B017;lenalidomida;116180200;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B017;levocetoconazol;116180200;rosuvastatina;classe;sem orientacao;classe;sem orientacao
+B017;lomitapida;116180200;rosuvastatina;nao citada;nao se aplica;classe;sem orientacao
+B017;mipomerseno;116180200;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B017;momelotinibe;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;nelfinavir;116180200;rosuvastatina;classe;limite de dose;classe;limite de dose
+B017;niacina (ácido nicotínico);116180200;rosuvastatina;nominal;sem orientacao;nominal;sem orientacao
+B017;nicotinamida;116180200;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B017;oteseconazol;116180200;rosuvastatina;classe;sem orientacao;classe;sem orientacao
+B017;pexidartinibe;116180200;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B017;regorafenibe;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;resmetirom;116180200;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B017;ritonavir;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;saquinavir;116180200;rosuvastatina;classe;limite de dose;classe;limite de dose
+B017;simeprevir;116180200;rosuvastatina;nominal;limite de dose;nominal;limite de dose
+B017;tafamidis;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;teriflunomida;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;ticagrelor;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;vadadustate;116180200;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B017;ácido fenofíbrico;116180200;rosuvastatina;classe;sem orientacao;nominal;sem orientacao
+B018;cetoconazol;100330206;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B018;ciclosporina;100330206;pitavastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B018;clofibrato;100330206;pitavastatina;classe;monitorar;classe;monitorar
+B018;colchicina;100330206;pitavastatina;nominal;monitorar;nominal;monitorar
+B018;daptomicina;100330206;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B018;eritromicina;100330206;pitavastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B018;fenofibrato;100330206;pitavastatina;nominal;monitorar;nominal;monitorar
+B018;genfibrozila;100330206;pitavastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B018;leflunomida;100330206;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B018;lenalidomida;100330206;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B018;letermovir;100330206;pitavastatina;nao citada;nao se aplica;classe;sem orientacao
+B018;levocetoconazol;100330206;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B018;lomitapida;100330206;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B018;mipomerseno;100330206;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B018;niacina (ácido nicotínico);100330206;pitavastatina;nominal;limite de dose;nominal;limite de dose
+B018;nicotinamida;100330206;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B018;pexidartinibe;100330206;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B018;teriflunomida;100330206;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B018;vadadustate;100330206;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B018;ácido fenofíbrico;100330206;pitavastatina;classe;monitorar;classe;monitorar
+B022;cetoconazol;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;ciclosporina;109740346;pitavastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B022;clofibrato;109740346;pitavastatina;classe;monitorar;classe;monitorar
+B022;colchicina;109740346;pitavastatina;nominal;monitorar;nominal;monitorar
+B022;daptomicina;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;eritromicina;109740346;pitavastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B022;fenofibrato;109740346;pitavastatina;nominal;monitorar;nominal;monitorar
+B022;genfibrozila;109740346;pitavastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B022;leflunomida;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;lenalidomida;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;letermovir;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;levocetoconazol;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;lomitapida;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;mipomerseno;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;niacina (ácido nicotínico);109740346;pitavastatina;nominal;limite de dose;nominal;monitorar
+B022;nicotinamida;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;pexidartinibe;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;teriflunomida;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;vadadustate;109740346;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B022;ácido fenofíbrico;109740346;pitavastatina;classe;monitorar;classe;monitorar
+B026;cetoconazol;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;ciclosporina;102351432;pitavastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B026;clofibrato;102351432;pitavastatina;classe;monitorar;classe;monitorar
+B026;colchicina;102351432;pitavastatina;nominal;monitorar;nominal;monitorar
+B026;daptomicina;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;eritromicina;102351432;pitavastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B026;fenofibrato;102351432;pitavastatina;nominal;monitorar;nominal;monitorar
+B026;genfibrozila;102351432;pitavastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B026;leflunomida;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;lenalidomida;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;letermovir;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;levocetoconazol;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;lomitapida;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;mipomerseno;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;niacina (ácido nicotínico);102351432;pitavastatina;nominal;limite de dose;nominal;monitorar
+B026;nicotinamida;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;pexidartinibe;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;teriflunomida;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;vadadustate;102351432;pitavastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B026;ácido fenofíbrico;102351432;pitavastatina;classe;monitorar;classe;monitorar
+B031;cetoconazol;155370006;pravastatina;nominal;sem orientacao;nao citada;nao se aplica
+B031;ciclosporina;155370006;pravastatina;nominal;limite de dose;nominal;monitorar
+B031;claritromicina;155370006;pravastatina;nominal;monitorar;nominal;monitorar
+B031;clofibrato;155370006;pravastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B031;colchicina;155370006;pravastatina;nominal;monitorar;nominal;monitorar
+B031;daptomicina;155370006;pravastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B031;eritromicina;155370006;pravastatina;nominal;monitorar;nominal;monitorar
+B031;fenofibrato;155370006;pravastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B031;genfibrozila;155370006;pravastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B031;leflunomida;155370006;pravastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B031;lenalidomida;155370006;pravastatina;nominal;monitorar;nominal;monitorar
+B031;levocetoconazol;155370006;pravastatina;classe;sem orientacao;nao citada;nao se aplica
+B031;lomitapida;155370006;pravastatina;classe;sem orientacao;classe;sem orientacao
+B031;mibefradil;155370006;pravastatina;classe;sem orientacao;classe;sem orientacao
+B031;mipomerseno;155370006;pravastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B031;pexidartinibe;155370006;pravastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B031;resmetirom;155370006;pravastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B031;teriflunomida;155370006;pravastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B031;ácido bempedoico;155370006;pravastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B031;ácido fenofíbrico;155370006;pravastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B052;amprenavir;141070645;rosuvastatina;classe;limite de dose;nao citada;nao se aplica
+B052;asciminibe;141070645;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B052;atazanavir;141070645;rosuvastatina;nominal;limite de dose;classe;contraindicar/evitar
+B052;capmatinibe;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;cetoconazol;141070645;rosuvastatina;nominal;monitorar;nominal;sem orientacao
+B052;ciclosporina;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;clofibrato;141070645;rosuvastatina;classe;sem orientacao;classe;sem orientacao
+B052;clopidogrel;141070645;rosuvastatina;nominal;sem orientacao;nao citada;nao se aplica
+B052;colchicina;141070645;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B052;danicopana;141070645;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B052;daptomicina;141070645;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B052;darolutamida;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;darunavir;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;enasidenibe;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;febuxostate;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;fenofibrato;141070645;rosuvastatina;nominal;sem orientacao;nominal;sem orientacao
+B052;fostamatinibe;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;genfibrozila;141070645;rosuvastatina;nominal;limite de dose;nominal;sem orientacao
+B052;indinavir;141070645;rosuvastatina;classe;limite de dose;nao citada;nao se aplica
+B052;leflunomida;141070645;rosuvastatina;classe;limite de dose;nominal;contraindicar/evitar
+B052;lenalidomida;141070645;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B052;levocetoconazol;141070645;rosuvastatina;classe;sem orientacao;nao citada;nao se aplica
+B052;lomitapida;141070645;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B052;mipomerseno;141070645;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B052;momelotinibe;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;nelfinavir;141070645;rosuvastatina;classe;limite de dose;nao citada;nao se aplica
+B052;niacina (ácido nicotínico);141070645;rosuvastatina;nominal;sem orientacao;nominal;sem orientacao
+B052;nicotinamida;141070645;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B052;oteseconazol;141070645;rosuvastatina;classe;sem orientacao;nao citada;nao se aplica
+B052;pexidartinibe;141070645;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B052;regorafenibe;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;resmetirom;141070645;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B052;ritonavir;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;saquinavir;141070645;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B052;simeprevir;141070645;rosuvastatina;nominal;limite de dose;classe;contraindicar/evitar
+B052;tafamidis;141070645;rosuvastatina;nominal;limite de dose;classe;contraindicar/evitar
+B052;teriflunomida;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;ticagrelor;141070645;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B052;vadadustate;141070645;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B052;ácido fenofíbrico;141070645;rosuvastatina;classe;sem orientacao;nominal;sem orientacao
+B066;adagrasibe;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;amiodarona;105350188;sinvastatina;nominal;limite de dose;nominal;limite de dose
+B066;amprenavir;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;anlodipino;105350188;sinvastatina;nominal;limite de dose;nominal;limite de dose
+B066;atazanavir;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;boceprevir;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;ceritinibe;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;cetoconazol;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;ciclosporina;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;claritromicina;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;clofibrato;105350188;sinvastatina;classe;limite de dose;classe;limite de dose
+B066;cobicistate;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;colchicina;105350188;sinvastatina;nominal;monitorar;nominal;monitorar
+B066;conivaptana;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;danazol;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;daptomicina;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;daraxonrasibe;105350188;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B066;darunavir;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;delavirdina;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;diltiazem;105350188;sinvastatina;nominal;limite de dose;nominal;limite de dose
+B066;dronedarona;105350188;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B066;ensitrelvir;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;eritromicina;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;fenofibrato;105350188;sinvastatina;nominal;monitorar;nominal;monitorar
+B066;fluconazol;105350188;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B066;fosamprenavir;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;genfibrozila;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;idelalisibe;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;indinavir;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;itraconazol;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;leflunomida;105350188;sinvastatina;classe;limite de dose;classe;limite de dose
+B066;lenalidomida;105350188;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B066;letermovir;105350188;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B066;levanlodipino;105350188;sinvastatina;classe;sem orientacao;nao citada;nao se aplica
+B066;levocetoconazol;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;lomitapida;105350188;sinvastatina;nominal;limite de dose;nominal;limite de dose
+B066;lonafarnibe;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;mibefradil;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;mifepristona;105350188;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B066;mipomerseno;105350188;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B066;morfina;105350188;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B066;nefazodona;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;nelfinavir;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;niacina (ácido nicotínico);105350188;sinvastatina;nominal;monitorar;nominal;monitorar
+B066;nicotinamida;105350188;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B066;orforglipron;105350188;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B066;pexidartinibe;105350188;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B066;posaconazol;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;ranolazina;105350188;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B066;relacorilanto;105350188;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B066;resmetirom;105350188;sinvastatina;classe;limite de dose;classe;limite de dose
+B066;rifampicina;105350188;sinvastatina;classe;sem orientacao;classe;sem orientacao
+B066;ritonavir;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;saquinavir;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;telaprevir;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;telitromicina;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;teriflunomida;105350188;sinvastatina;classe;limite de dose;classe;limite de dose
+B066;tipranavir;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;troleandomicina;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;tucatinibe;105350188;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B066;vadadustate;105350188;sinvastatina;classe;limite de dose;classe;limite de dose
+B066;verapamil;105350188;sinvastatina;nominal;limite de dose;nominal;limite de dose
+B066;voriconazol;105350188;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B066;ácido bempedoico;105350188;sinvastatina;classe;sem orientacao;classe;sem orientacao
+B066;ácido fenofíbrico;105350188;sinvastatina;classe;monitorar;classe;monitorar
+B081;adagrasibe;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;amiodarona;100470472;sinvastatina;nominal;limite de dose;nominal;limite de dose
+B081;amprenavir;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;anlodipino;100470472;sinvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B081;atazanavir;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;boceprevir;100470472;sinvastatina;nominal;contraindicar/evitar;classe;contraindicar/evitar
+B081;ceritinibe;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;cetoconazol;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;ciclosporina;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;claritromicina;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;clofibrato;100470472;sinvastatina;classe;contraindicar/evitar;classe;limite de dose
+B081;cobicistate;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;colchicina;100470472;sinvastatina;nominal;monitorar;nominal;monitorar
+B081;conivaptana;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;danazol;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;daptomicina;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;daraxonrasibe;100470472;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B081;darunavir;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;delavirdina;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;diltiazem;100470472;sinvastatina;nominal;limite de dose;nominal;limite de dose
+B081;dronedarona;100470472;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B081;ensitrelvir;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;eritromicina;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;fenofibrato;100470472;sinvastatina;nominal;monitorar;nominal;monitorar
+B081;fluconazol;100470472;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B081;fosamprenavir;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;genfibrozila;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;idelalisibe;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;indinavir;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;itraconazol;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;leflunomida;100470472;sinvastatina;classe;limite de dose;classe;limite de dose
+B081;lenalidomida;100470472;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B081;letermovir;100470472;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B081;levanlodipino;100470472;sinvastatina;classe;sem orientacao;nao citada;nao se aplica
+B081;levocetoconazol;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;lomitapida;100470472;sinvastatina;nominal;limite de dose;nominal;limite de dose
+B081;lonafarnibe;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;mibefradil;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;mifepristona;100470472;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B081;mipomerseno;100470472;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B081;morfina;100470472;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B081;nefazodona;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;nelfinavir;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;niacina (ácido nicotínico);100470472;sinvastatina;nominal;monitorar;nominal;monitorar
+B081;nicotinamida;100470472;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B081;orforglipron;100470472;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B081;pexidartinibe;100470472;sinvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B081;posaconazol;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;ranolazina;100470472;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B081;relacorilanto;100470472;sinvastatina;classe;limite de dose;classe;contraindicar/evitar
+B081;resmetirom;100470472;sinvastatina;classe;limite de dose;classe;limite de dose
+B081;rifampicina;100470472;sinvastatina;classe;sem orientacao;classe;contraindicar/evitar
+B081;ritonavir;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;saquinavir;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;telaprevir;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;telitromicina;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;teriflunomida;100470472;sinvastatina;classe;limite de dose;classe;limite de dose
+B081;tipranavir;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;troleandomicina;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;tucatinibe;100470472;sinvastatina;classe;contraindicar/evitar;classe;contraindicar/evitar
+B081;vadadustate;100470472;sinvastatina;classe;limite de dose;classe;limite de dose
+B081;verapamil;100470472;sinvastatina;nominal;limite de dose;nominal;limite de dose
+B081;voriconazol;100470472;sinvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B081;ácido bempedoico;100470472;sinvastatina;classe;sem orientacao;classe;sem orientacao
+B081;ácido fenofíbrico;100470472;sinvastatina;classe;monitorar;classe;monitorar
+B082;adagrasibe;118190474;atorvastatina;classe;sem orientacao;classe;sem orientacao
+B082;amprenavir;118190474;atorvastatina;classe;limite de dose;classe;sem orientacao
+B082;atazanavir;118190474;atorvastatina;classe;limite de dose;classe;sem orientacao
+B082;boceprevir;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;cetoconazol;118190474;atorvastatina;classe;limite de dose;classe;monitorar
+B082;ciclosporina;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;claritromicina;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;clofibrato;118190474;atorvastatina;classe;limite de dose;classe;monitorar
+B082;colchicina;118190474;atorvastatina;nominal;monitorar;nominal;sem orientacao
+B082;conivaptana;118190474;atorvastatina;classe;sem orientacao;classe;contraindicar/evitar
+B082;danazol;118190474;atorvastatina;classe;sem orientacao;classe;contraindicar/evitar
+B082;daptomicina;118190474;atorvastatina;nominal;contraindicar/evitar;nominal;contraindicar/evitar
+B082;daraxonrasibe;118190474;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B082;darunavir;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;eritromicina;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;fenofibrato;118190474;atorvastatina;nominal;limite de dose;nominal;monitorar
+B082;fluconazol;118190474;atorvastatina;classe;limite de dose;classe;monitorar
+B082;fosamprenavir;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;genfibrozila;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;indinavir;118190474;atorvastatina;classe;limite de dose;classe;limite de dose
+B082;itraconazol;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;leflunomida;118190474;atorvastatina;nao citada;nao se aplica;classe;limite de dose
+B082;lenalidomida;118190474;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B082;letermovir;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;levocetoconazol;118190474;atorvastatina;classe;limite de dose;classe;monitorar
+B082;lomitapida;118190474;atorvastatina;classe;sem orientacao;classe;limite de dose
+B082;lonafarnibe;118190474;atorvastatina;classe;sem orientacao;classe;limite de dose
+B082;mibefradil;118190474;atorvastatina;classe;sem orientacao;classe;limite de dose
+B082;mipomerseno;118190474;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B082;nefazodona;118190474;atorvastatina;classe;sem orientacao;classe;limite de dose
+B082;nelfinavir;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;niacina (ácido nicotínico);118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;nicotinamida;118190474;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B082;pexidartinibe;118190474;atorvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B082;posaconazol;118190474;atorvastatina;classe;limite de dose;classe;monitorar
+B082;ranolazina;118190474;atorvastatina;classe;sem orientacao;classe;limite de dose
+B082;resmetirom;118190474;atorvastatina;nao citada;nao se aplica;classe;limite de dose
+B082;rifampicina;118190474;atorvastatina;nominal;monitorar;nominal;sem orientacao
+B082;ritonavir;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;saquinavir;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;simeprevir;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;telaprevir;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;telitromicina;118190474;atorvastatina;classe;sem orientacao;classe;limite de dose
+B082;teriflunomida;118190474;atorvastatina;nao citada;nao se aplica;classe;sem orientacao
+B082;tipranavir;118190474;atorvastatina;nominal;limite de dose;nominal;limite de dose
+B082;troleandomicina;118190474;atorvastatina;classe;sem orientacao;classe;limite de dose
+B082;vadadustate;118190474;atorvastatina;nao citada;nao se aplica;classe;limite de dose
+B082;voriconazol;118190474;atorvastatina;classe;limite de dose;classe;monitorar
+B082;ácido fenofíbrico;118190474;atorvastatina;classe;limite de dose;classe;monitorar
+B083;amprenavir;105730414;rosuvastatina;classe;limite de dose;nao citada;nao se aplica
+B083;asciminibe;105730414;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B083;atazanavir;105730414;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B083;capmatinibe;105730414;rosuvastatina;nominal;limite de dose;classe;contraindicar/evitar
+B083;cetoconazol;105730414;rosuvastatina;nominal;monitorar;nominal;sem orientacao
+B083;ciclosporina;105730414;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B083;clofibrato;105730414;rosuvastatina;classe;sem orientacao;classe;sem orientacao
+B083;clopidogrel;105730414;rosuvastatina;nominal;sem orientacao;nominal;sem orientacao
+B083;colchicina;105730414;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B083;danicopana;105730414;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B083;daptomicina;105730414;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B083;darolutamida;105730414;rosuvastatina;nominal;limite de dose;classe;contraindicar/evitar
+B083;darunavir;105730414;rosuvastatina;nominal;limite de dose;nao citada;nao se aplica
+B083;enasidenibe;105730414;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B083;febuxostate;105730414;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B083;fenofibrato;105730414;rosuvastatina;nominal;sem orientacao;nominal;sem orientacao
+B083;fostamatinibe;105730414;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B083;genfibrozila;105730414;rosuvastatina;nominal;limite de dose;nominal;sem orientacao
+B083;indinavir;105730414;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B083;leflunomida;105730414;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B083;lenalidomida;105730414;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B083;levocetoconazol;105730414;rosuvastatina;classe;sem orientacao;nao citada;nao se aplica
+B083;lomitapida;105730414;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B083;mipomerseno;105730414;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B083;momelotinibe;105730414;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B083;nelfinavir;105730414;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B083;niacina (ácido nicotínico);105730414;rosuvastatina;nominal;sem orientacao;nominal;sem orientacao
+B083;nicotinamida;105730414;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B083;oteseconazol;105730414;rosuvastatina;classe;sem orientacao;nao citada;nao se aplica
+B083;pexidartinibe;105730414;rosuvastatina;nao citada;nao se aplica;nao citada;nao se aplica
+B083;regorafenibe;105730414;rosuvastatina;nominal;limite de dose;classe;contraindicar/evitar
+B083;resmetirom;105730414;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B083;ritonavir;105730414;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B083;saquinavir;105730414;rosuvastatina;classe;limite de dose;classe;contraindicar/evitar
+B083;simeprevir;105730414;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B083;tafamidis;105730414;rosuvastatina;nominal;limite de dose;classe;contraindicar/evitar
+B083;teriflunomida;105730414;rosuvastatina;nominal;limite de dose;classe;contraindicar/evitar
+B083;ticagrelor;105730414;rosuvastatina;nominal;limite de dose;nominal;contraindicar/evitar
+B083;vadadustate;105730414;rosuvastatina;nominal;limite de dose;classe;contraindicar/evitar
+B083;ácido fenofíbrico;105730414;rosuvastatina;classe;sem orientacao;classe;sem orientacao

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+saida/
+*.db
+*.pdf
+!instrumentos/*.pdf
+# lista bruta do Drugs.com: só no pacote do Zenodo
+dados/drugscom_*.json

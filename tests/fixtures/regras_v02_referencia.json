@@ -1,0 +1,640 @@
+{
+ "ALIASES": {
+  "boceprevir": "bocepravir",
+  "telaprevir": "teloprevir"
+ },
+ "ANAFORA_V2": "^(?:por isso|portanto|nao exced|nao exceda|devem ser considerados os beneficios|se esta combinacao|se a coadministracao nao puder|aconselha-se o monitoramento|o monitoramento clinico|o ajuste da dose e necessario)|estes medicamentos|medicamentos citados|esta combinacao",
+ "BCRP_V2": [
+  "capmatinibe",
+  "darolutamida",
+  "febuxostate",
+  "fostamatinibe",
+  "regorafenibe",
+  "enasidenibe",
+  "tafamidis",
+  "momelotinibe",
+  "asciminibe",
+  "ticagrelor",
+  "ciclosporina",
+  "teriflunomida",
+  "vadadustate",
+  "resmetirom",
+  "danicopana",
+  "leflunomida",
+  "oteseconazol"
+ ],
+ "CLASSES_V2": {
+  "inibidores potentes do CYP3A4": [
+   "inibidor\\w*\\s+(?:potente|forte)s?\\s+(?:da|do|de)?\\s*(?:isoenzima\\s+|enzima\\s+)?(?:citocromo\\s+)?(?:p450\\s+)?(?:cyp\\s?3a4|3a4)|potente efeito inibitorio sobre (?:a |o )?(?:cyp\\s?3a4|3a4)",
+   [
+    "itraconazol",
+    "cetoconazol",
+    "posaconazol",
+    "voriconazol",
+    "levocetoconazol",
+    "claritromicina",
+    "telitromicina",
+    "troleandomicina",
+    "nefazodona",
+    "cobicistate",
+    "idelalisibe",
+    "boceprevir",
+    "telaprevir",
+    "mibefradil",
+    "adagrasibe",
+    "ceritinibe",
+    "tucatinibe",
+    "lonafarnibe",
+    "ensitrelvir",
+    "delavirdina",
+    "atazanavir",
+    "darunavir",
+    "indinavir",
+    "nelfinavir",
+    "saquinavir",
+    "tipranavir",
+    "amprenavir",
+    "fosamprenavir",
+    "ritonavir",
+    "mifepristona"
+   ]
+  ],
+  "inibidores moderados do CYP3A4": [
+   "inibidor\\w*\\s+moderad\\w*\\s+(?:da|do|de)\\s*(?:isoenzima\\s+)?(?:cyp\\s?3a4|3a4)",
+   [
+    "fluconazol",
+    "eritromicina",
+    "diltiazem",
+    "verapamil",
+    "dronedarona",
+    "letermovir",
+    "relacorilanto",
+    "conivaptana"
+   ]
+  ],
+  "inibidores do CYP3A4": [
+   "inibidor\\w*\\s+(?:da|do|de)\\s*(?:isoenzima\\s+|enzima\\s+)?(?:citocromo\\s+)?(?:p450\\s+)?(?:cyp\\s?3a4|3a4)",
+   [
+    "itraconazol",
+    "cetoconazol",
+    "posaconazol",
+    "voriconazol",
+    "levocetoconazol",
+    "claritromicina",
+    "telitromicina",
+    "troleandomicina",
+    "nefazodona",
+    "cobicistate",
+    "conivaptana",
+    "idelalisibe",
+    "boceprevir",
+    "telaprevir",
+    "mibefradil",
+    "adagrasibe",
+    "ceritinibe",
+    "tucatinibe",
+    "lonafarnibe",
+    "ensitrelvir",
+    "delavirdina",
+    "atazanavir",
+    "darunavir",
+    "indinavir",
+    "nelfinavir",
+    "saquinavir",
+    "tipranavir",
+    "amprenavir",
+    "fosamprenavir",
+    "ritonavir",
+    "fluconazol",
+    "eritromicina",
+    "diltiazem",
+    "verapamil",
+    "dronedarona",
+    "letermovir",
+    "amiodarona",
+    "ranolazina",
+    "mifepristona",
+    "relacorilanto",
+    "lomitapida",
+    "ciclosporina",
+    "ticagrelor"
+   ]
+  ],
+  "indutores do CYP3A4": [
+   "indutor\\w*\\s+(?:\\w+\\s+){0,2}(?:cyp\\s?3a4|3a4)",
+   [
+    "rifampicina"
+   ]
+  ],
+  "inibidores de protease (HIV/HCV)": [
+   "inibidor\\w* d[ae]s? protease|inibidor\\w* de virus da imunodeficiencia humana \\(hiv\\) protease",
+   [
+    "atazanavir",
+    "darunavir",
+    "indinavir",
+    "nelfinavir",
+    "saquinavir",
+    "tipranavir",
+    "amprenavir",
+    "fosamprenavir",
+    "ritonavir",
+    "boceprevir",
+    "telaprevir",
+    "simeprevir"
+   ]
+  ],
+  "antifúngicos azólicos": [
+   "antifung\\w*\\s+(?:do grupo\\s+)?azo\\w*|derivad\\w* azol\\w*|\\bazois\\b|\\bazolicos\\b",
+   [
+    "itraconazol",
+    "cetoconazol",
+    "fluconazol",
+    "posaconazol",
+    "voriconazol",
+    "levocetoconazol",
+    "oteseconazol"
+   ]
+  ],
+  "macrolídeos": [
+   "macrolid\\w*",
+   [
+    "claritromicina",
+    "eritromicina",
+    "telitromicina",
+    "troleandomicina"
+   ]
+  ],
+  "fibratos": [
+   "(?<![a-z])fibratos?\\b|derivad\\w* do acido fibrico|acidos fibricos",
+   [
+    "fenofibrato",
+    "genfibrozila",
+    "clofibrato",
+    "ácido fenofíbrico"
+   ]
+  ],
+  "bloqueadores dos canais de cálcio": [
+   "bloqueador\\w* d\\w* cana(?:l|is|i)? de calcio",
+   [
+    "diltiazem",
+    "verapamil",
+    "anlodipino",
+    "levanlodipino",
+    "mibefradil"
+   ]
+  ],
+  "inibidores da BCRP": [
+   "inibidor\\w*\\s+(?:da\\s+|do\\s+)?(?:proteina\\s+)?(?:\\w+\\s+){0,6}\\(?bc(?:rp|pr)\\b",
+   [
+    "capmatinibe",
+    "darolutamida",
+    "febuxostate",
+    "fostamatinibe",
+    "regorafenibe",
+    "enasidenibe",
+    "tafamidis",
+    "momelotinibe",
+    "asciminibe",
+    "ticagrelor",
+    "ciclosporina",
+    "teriflunomida",
+    "vadadustate",
+    "resmetirom",
+    "danicopana",
+    "leflunomida",
+    "oteseconazol"
+   ]
+  ],
+  "inibidores do OATP1B1": [
+   "inibidor\\w*\\s+(?:da\\s+|do\\s+|dos\\s+)?(?:proteina\\s+)?(?:transportador\\w*\\s+)?(?:\\w+\\s+){0,2}oatp\\s?(?:1|l)b",
+   [
+    "ciclosporina",
+    "clopidogrel",
+    "rifampicina",
+    "atazanavir",
+    "darunavir",
+    "ritonavir",
+    "saquinavir",
+    "letermovir",
+    "eritromicina",
+    "claritromicina",
+    "resmetirom",
+    "teriflunomida",
+    "leflunomida",
+    "ácido bempedoico",
+    "genfibrozila",
+    "darolutamida"
+   ]
+  ],
+  "inibidores das proteínas transportadoras (OATP1B1/BCRP)": [
+   "inibidores destas proteinas transportadoras|interacoes com essas proteinas transportadoras",
+   [
+    "asciminibe",
+    "atazanavir",
+    "capmatinibe",
+    "ciclosporina",
+    "claritromicina",
+    "clopidogrel",
+    "danicopana",
+    "darolutamida",
+    "darunavir",
+    "enasidenibe",
+    "eritromicina",
+    "febuxostate",
+    "fostamatinibe",
+    "leflunomida",
+    "letermovir",
+    "momelotinibe",
+    "regorafenibe",
+    "resmetirom",
+    "rifampicina",
+    "ritonavir",
+    "saquinavir",
+    "tafamidis",
+    "teriflunomida",
+    "ticagrelor",
+    "vadadustate",
+    "ácido bempedoico",
+    "genfibrozila",
+    "oteseconazol"
+   ]
+  ]
+ },
+ "DCB": {
+  "adagrasib": [
+   "adagrasibe",
+   "adagras"
+  ],
+  "amiodarone": [
+   "amiodarona",
+   "amiodaron"
+  ],
+  "amlodipine": [
+   "anlodipino",
+   "anlodipin"
+  ],
+  "amprenavir": [
+   "amprenavir",
+   "amprenavir"
+  ],
+  "asciminib": [
+   "asciminibe",
+   "ascimin"
+  ],
+  "atazanavir": [
+   "atazanavir",
+   "atazanavir"
+  ],
+  "bempedoic acid": [
+   "ácido bempedoico",
+   "bempedo"
+  ],
+  "boceprevir": [
+   "boceprevir",
+   "boceprevir"
+  ],
+  "capmatinib": [
+   "capmatinibe",
+   "capmatin"
+  ],
+  "ceritinib": [
+   "ceritinibe",
+   "ceritin"
+  ],
+  "clarithromycin": [
+   "claritromicina",
+   "claritromicin"
+  ],
+  "clofibrate": [
+   "clofibrato",
+   "clofibrat"
+  ],
+  "clopidogrel": [
+   "clopidogrel",
+   "clopidogrel"
+  ],
+  "cobicistat": [
+   "cobicistate",
+   "cobicistat"
+  ],
+  "colchicine": [
+   "colchicina",
+   "colchicin"
+  ],
+  "conivaptan": [
+   "conivaptana",
+   "conivapt"
+  ],
+  "cyclosporine": [
+   "ciclosporina",
+   "ciclosporin"
+  ],
+  "danazol": [
+   "danazol",
+   "danazol"
+  ],
+  "danicopan": [
+   "danicopana",
+   "danicopan"
+  ],
+  "daptomycin": [
+   "daptomicina",
+   "daptomicin"
+  ],
+  "daraxonrasib": [
+   "daraxonrasibe",
+   "daraxonras"
+  ],
+  "darolutamide": [
+   "darolutamida",
+   "darolutamid"
+  ],
+  "darunavir": [
+   "darunavir",
+   "darunavir"
+  ],
+  "delavirdine": [
+   "delavirdina",
+   "delavirdin"
+  ],
+  "diltiazem": [
+   "diltiazem",
+   "diltiazem"
+  ],
+  "dronedarone": [
+   "dronedarona",
+   "dronedaron"
+  ],
+  "enasidenib": [
+   "enasidenibe",
+   "enasiden"
+  ],
+  "ensitrelvir": [
+   "ensitrelvir",
+   "ensitrelvir"
+  ],
+  "erythromycin": [
+   "eritromicina",
+   "eritromicin"
+  ],
+  "febuxostat": [
+   "febuxostate",
+   "febuxostat"
+  ],
+  "fenofibrate": [
+   "fenofibrato",
+   "fenofibrat"
+  ],
+  "fenofibric acid": [
+   "ácido fenofíbrico",
+   "fenofibrico|fenofíbrico"
+  ],
+  "fluconazole": [
+   "fluconazol",
+   "fluconazol"
+  ],
+  "fosamprenavir": [
+   "fosamprenavir",
+   "fosamprenavir"
+  ],
+  "fostamatinib": [
+   "fostamatinibe",
+   "fostamatin"
+  ],
+  "gemfibrozil": [
+   "genfibrozila",
+   "genfibrozil|gemfibrozil"
+  ],
+  "idelalisib": [
+   "idelalisibe",
+   "idelalis"
+  ],
+  "indinavir": [
+   "indinavir",
+   "indinavir"
+  ],
+  "itraconazole": [
+   "itraconazol",
+   "itraconazol"
+  ],
+  "ketoconazole": [
+   "cetoconazol",
+   "cetoconazol"
+  ],
+  "leflunomide": [
+   "leflunomida",
+   "leflunomid"
+  ],
+  "lenalidomide": [
+   "lenalidomida",
+   "lenalidomid"
+  ],
+  "letermovir": [
+   "letermovir",
+   "letermovir"
+  ],
+  "levamlodipine": [
+   "levanlodipino",
+   "levanlodipin"
+  ],
+  "levoketoconazole": [
+   "levocetoconazol",
+   "levocetoconazol"
+  ],
+  "lomitapide": [
+   "lomitapida",
+   "lomitapid"
+  ],
+  "lonafarnib": [
+   "lonafarnibe",
+   "lonafarn"
+  ],
+  "mibefradil": [
+   "mibefradil",
+   "mibefradil"
+  ],
+  "mifepristone": [
+   "mifepristona",
+   "mifepriston"
+  ],
+  "mipomersen": [
+   "mipomerseno",
+   "mipomers"
+  ],
+  "momelotinib": [
+   "momelotinibe",
+   "momelotin"
+  ],
+  "morphine": [
+   "morfina",
+   "morfina"
+  ],
+  "nefazodone": [
+   "nefazodona",
+   "nefazodon"
+  ],
+  "nelfinavir": [
+   "nelfinavir",
+   "nelfinavir"
+  ],
+  "niacin": [
+   "niacina (ácido nicotínico)",
+   "niacin|nicotínico|nicotinico"
+  ],
+  "nicotinamide": [
+   "nicotinamida",
+   "nicotinamid"
+  ],
+  "orforglipron": [
+   "orforglipron",
+   "orforglipron"
+  ],
+  "oteseconazole": [
+   "oteseconazol",
+   "oteseconazol"
+  ],
+  "pexidartinib": [
+   "pexidartinibe",
+   "pexidartin"
+  ],
+  "posaconazole": [
+   "posaconazol",
+   "posaconazol"
+  ],
+  "ranolazine": [
+   "ranolazina",
+   "ranolazin"
+  ],
+  "regorafenib": [
+   "regorafenibe",
+   "regorafen"
+  ],
+  "relacorilant": [
+   "relacorilanto",
+   "relacorilant"
+  ],
+  "resmetirom": [
+   "resmetirom",
+   "resmetirom"
+  ],
+  "rifampin": [
+   "rifampicina",
+   "rifampicin"
+  ],
+  "ritonavir": [
+   "ritonavir",
+   "ritonavir"
+  ],
+  "saquinavir": [
+   "saquinavir",
+   "saquinavir"
+  ],
+  "simeprevir": [
+   "simeprevir",
+   "simeprevir"
+  ],
+  "tafamidis": [
+   "tafamidis",
+   "tafamidis"
+  ],
+  "telaprevir": [
+   "telaprevir",
+   "telaprevir"
+  ],
+  "telithromycin": [
+   "telitromicina",
+   "telitromicin"
+  ],
+  "teriflunomide": [
+   "teriflunomida",
+   "teriflunomid"
+  ],
+  "ticagrelor": [
+   "ticagrelor",
+   "ticagrelor"
+  ],
+  "tipranavir": [
+   "tipranavir",
+   "tipranavir"
+  ],
+  "troleandomycin": [
+   "troleandomicina",
+   "troleandomicin"
+  ],
+  "tucatinib": [
+   "tucatinibe",
+   "tucatin"
+  ],
+  "vadadustat": [
+   "vadadustate",
+   "vadadustat"
+  ],
+  "verapamil": [
+   "verapamil",
+   "verapamil"
+  ],
+  "voriconazole": [
+   "voriconazol",
+   "voriconazol"
+  ]
+ },
+ "DOSE_CONDICIONAL_V2": "doses? (?:>|acima de|superiores? a|maiores? (?:que|do que)) ?\\d+ ?mg",
+ "EQUIVALENTE": {
+  "ácido fenofíbrico": "fenofibrato"
+ },
+ "EST": {
+  "atorvastatin": "atorvastatina",
+  "fluvastatin": "fluvastatina",
+  "lovastatin": "lovastatina",
+  "pitavastatin": "pitavastatina",
+  "pravastatin": "pravastatina",
+  "rosuvastatin": "rosuvastatina",
+  "simvastatin": "sinvastatina"
+ },
+ "EXCECAO_V2": "(?:com excecao d[oa]s?|exceto|alem d[aeo]s?|diferentes? d[aeo]?)\\s",
+ "MANEJO_V2": [
+  [
+   "C",
+   "contraindicad|contra-indicad|nao deve(?:m)? ser (?:usad|administrad|utilizad|prescrit|coadministrad|associad)|deve(?:m)? ser evitad|evitar\\b|evite\\b|nao (?:e|sao) recomendad|nao se recomenda|nao recomendad|suspen(?:der|sao|da)|interromp|descontinu|nao puder ser evitad|(?:seja|for) inevitavel"
+  ],
+  [
+   "L",
+   "nao (?:deve )?exced|nao exceda|nao deve(?:m)? ser (?:maior|superior)|nao ultrapass|dose (?:maxima|diaria maxima|inicial)|menor dose|doses menores|ajuste (?:d[ae]|n[ae]) dose|ajuste da posologia|deve(?:m)? ser ajustad|reduc\\w* (?:n|d)a dose|reduzi\\w* (?:a )?dose|deve comecar com \\d|iniciar com \\d|nao mais que \\d|cuidado ao aumentar a dose|doses? mais (?:elevadas?|altas?) de|necessari\\w* aumentar a dose"
+  ],
+  [
+   "M",
+   "monitor|acompanhament|acompanhar|deve(?:m)? ser acompanhad|cautel|cuidad|precau|avaliar cuidadosamente|deve(?:m)? avaliar|avaliacao clinica|pondera|vigil|considerados os beneficios|coadministracao simultanea|niveis de ck"
+  ]
+ ],
+ "NAO_FARMACO": [
+  "liver disease",
+  "renal dysfunction"
+ ],
+ "NEGA_PARCIAL_V2": "interacao farmacodinamica pode ocorrer",
+ "NEGA_V2": "nao tiveram (?:um )?efeito clinicamente significativo|nao ha interac\\w* (?:medicamentosa )?clinicamente relevante|ausencia de (?:uma )?interac|nao houve interac\\w* clinicamente significativ|nao resultou em alteracoes significativas|nao (?:tem|teve) interac\\w* clinicamente significativ",
+ "OATP_V2": [
+  "ciclosporina",
+  "clopidogrel",
+  "rifampicina",
+  "atazanavir",
+  "darunavir",
+  "ritonavir",
+  "saquinavir",
+  "letermovir",
+  "eritromicina",
+  "claritromicina",
+  "resmetirom",
+  "teriflunomida",
+  "leflunomida",
+  "ácido bempedoico",
+  "genfibrozila",
+  "darolutamida"
+ ],
+ "ORIENT_TRANSP_V2": "medicamentos alternativos devem ser considerados|(?:destes|desses) medicamentos .{0,80}inevitavel",
+ "PARAGRAFO_TRANSP_V2": "interacoes com essas proteinas transportadoras",
+ "SEM_AJUSTE_V2": "nao (?:e|sao|foi|foram) (?:necessari\\w*|requerid\\w*|recomendad\\w*) (?:o |um |nenhum )?ajustes?|(?:nao|sem) (?:ha )?necessidade de ajustes?|nao e necessario qualquer ajuste|nenhum ajuste (?:de dose |da dose )?e necessario|nao sugerem haver necessidade de ajuste",
+ "SUBPOPULACAO_V2": "(?:para|em) pacientes asiaticos",
+ "TABELA_FIM_V2": "nao tiveram (?:um )?efeito clinicamente significativo|interac\\w* com outros medicamentos|efeito da rosuvastatina sobre|os dados apresentados",
+ "TABELA_INICIO_V2": "esquema posologico|tabela \\d.{0,40}efeito da coadministracao|aumento de 2 vezes ou maior",
+ "TABELA_REGRA_V2": "(?:2 vezes ou mais|ou maior que 2 vezes|aproximadamente 2 vezes ou mais).{0,90}dose inicial.{0,60}nao deve exceder|requerem ajuste da dose"
+}

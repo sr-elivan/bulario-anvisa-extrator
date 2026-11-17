@@ -1,0 +1,79 @@
+﻿regra;alternativa;expressao;descricao
+manejo_contraindicar;1;contraindicad;C: contraindicar/evitar
+manejo_contraindicar;2;contra-indicad;
+manejo_contraindicar;3;nao deve(?:m)? ser (?:usad|administrad|utilizad|prescrit|coadministrad|associad);
+manejo_contraindicar;4;deve(?:m)? ser evitad;
+manejo_contraindicar;5;evitar\b;
+manejo_contraindicar;6;evite\b;
+manejo_contraindicar;7;nao (?:e|sao) recomendad;
+manejo_contraindicar;8;nao se recomenda;
+manejo_contraindicar;9;nao recomendad;
+manejo_contraindicar;10;suspen(?:der|sao|da);
+manejo_contraindicar;11;interromp;
+manejo_contraindicar;12;descontinu;
+manejo_contraindicar;13;nao puder ser evitad;
+manejo_contraindicar;14;(?:seja|for) inevitavel;
+manejo_limite_dose;1;nao (?:deve )?exced;L: limite ou ajuste de dose
+manejo_limite_dose;2;nao exceda;
+manejo_limite_dose;3;nao deve(?:m)? ser (?:maior|superior);
+manejo_limite_dose;4;nao ultrapass;
+manejo_limite_dose;5;dose (?:maxima|diaria maxima|inicial);
+manejo_limite_dose;6;menor dose;
+manejo_limite_dose;7;doses menores;
+manejo_limite_dose;8;ajuste (?:d[ae]|n[ae]) dose;
+manejo_limite_dose;9;ajuste da posologia;
+manejo_limite_dose;10;deve(?:m)? ser ajustad;
+manejo_limite_dose;11;reduc\w* (?:n|d)a dose;
+manejo_limite_dose;12;reduzi\w* (?:a )?dose;
+manejo_limite_dose;13;deve comecar com \d;
+manejo_limite_dose;14;iniciar com \d;
+manejo_limite_dose;15;nao mais que \d;
+manejo_limite_dose;16;cuidado ao aumentar a dose;
+manejo_limite_dose;17;doses? mais (?:elevadas?|altas?) de;
+manejo_limite_dose;18;necessari\w* aumentar a dose;
+manejo_monitorar;1;monitor;M: monitorar/cautela
+manejo_monitorar;2;acompanhament;
+manejo_monitorar;3;acompanhar;
+manejo_monitorar;4;deve(?:m)? ser acompanhad;
+manejo_monitorar;5;cautel;
+manejo_monitorar;6;cuidad;
+manejo_monitorar;7;precau;
+manejo_monitorar;8;avaliar cuidadosamente;
+manejo_monitorar;9;deve(?:m)? avaliar;
+manejo_monitorar;10;avaliacao clinica;
+manejo_monitorar;11;pondera;
+manejo_monitorar;12;vigil;
+manejo_monitorar;13;considerados os beneficios;
+manejo_monitorar;14;coadministracao simultanea;
+manejo_monitorar;15;niveis de ck;
+sem_ajuste;1;nao (?:e|sao|foi|foram) (?:necessari\w*|requerid\w*|recomendad\w*) (?:o |um |nenhum )?ajustes?;"anula o limite de dose (""não é necessário ajuste"")"
+sem_ajuste;2;(?:nao|sem) (?:ha )?necessidade de ajustes?;
+sem_ajuste;3;nao e necessario qualquer ajuste;
+sem_ajuste;4;nenhum ajuste (?:de dose |da dose )?e necessario;
+sem_ajuste;5;nao sugerem haver necessidade de ajuste;
+nega_interacao;1;nao tiveram (?:um )?efeito clinicamente significativo;a bula afirma que não há interação relevante
+nega_interacao;2;nao ha interac\w* (?:medicamentosa )?clinicamente relevante;
+nega_interacao;3;ausencia de (?:uma )?interac;
+nega_interacao;4;nao houve interac\w* clinicamente significativ;
+nega_interacao;5;nao resultou em alteracoes significativas;
+nega_interacao;6;nao (?:tem|teve) interac\w* clinicamente significativ;
+nega_parcial;1;interacao farmacodinamica pode ocorrer;ressalva que impede ler a frase como negação
+dose_condicional;1;doses? (?:>|acima de|superiores? a|maiores? (?:que|do que)) ?\d+ ?mg;contraindicação só acima de uma dose -> limite de dose
+subpopulacao;1;(?:para|em) pacientes asiaticos;restrição só para uma subpopulação -> não se transfere
+excecao;1;(?:com excecao d[oa]s?|exceto|alem d[aeo]s?|diferentes? d[aeo]?)\s;"início de exceção (""exceto"", ""com exceção de"")"
+anafora;1;^(?:por isso|portanto|nao exced|nao exceda|devem ser considerados os beneficios|se esta combinacao|se a coadministracao nao puder|aconselha-se o monitoramento|o monitoramento clinico|o ajuste da dose e necessario);frase seguinte que retoma os fármacos da anterior
+anafora;2;estes medicamentos;
+anafora;3;medicamentos citados;
+anafora;4;esta combinacao;
+paragrafo_transportadores;1;interacoes com essas proteinas transportadoras;frase do parágrafo de terapia concomitante (transportadores)
+orientacao_transportadores;1;medicamentos alternativos devem ser considerados;orientação do parágrafo de terapia concomitante -> limite de dose
+orientacao_transportadores;2;(?:destes|desses) medicamentos .{0,80}inevitavel;
+tabela_regra;1;(?:2 vezes ou mais|ou maior que 2 vezes|aproximadamente 2 vezes ou mais).{0,90}dose inicial.{0,60}nao deve exceder;tabela de exposição com regra de ajuste de dose
+tabela_regra;2;requerem ajuste da dose;
+tabela_inicio;1;esquema posologico;início da tabela de exposição
+tabela_inicio;2;tabela \d.{0,40}efeito da coadministracao;
+tabela_inicio;3;aumento de 2 vezes ou maior;
+tabela_fim;1;nao tiveram (?:um )?efeito clinicamente significativo;fim da tabela de exposição
+tabela_fim;2;interac\w* com outros medicamentos;
+tabela_fim;3;efeito da rosuvastatina sobre;
+tabela_fim;4;os dados apresentados;
