@@ -3,6 +3,18 @@
 Formato: versão (data) — o que mudou. Versões seguem [SemVer](https://semver.org/lang/pt-BR/): mudança de dados ou de regra
 que altera resultados sobe a versão intermediária; correção sem efeito nos resultados sobe a última.
 
+## 0.2.1 (18/11/2026) — dados de terceiros, transparência e análises complementares
+Nenhum resultado do estudo mudou.
+- **Drugs.com:** os termos de uso do site proíbem copiar ou redistribuir partes dele sem autorização. Saíram do depósito a lista
+  bruta (`drugscom_major_2026-11-13.json`), a coluna `farmaco_drugscom` de `interacoes_graves_referencia.csv` e a lista em inglês
+  embutida em `instrumentos/formulario_validacao.gs`. Ficam os pares do estudo em DCB, necessários para verificar a classificação
+  (não cobertos pela CC BY; ver `LICENSE-DATA`).
+- **Análises complementares** (`estudo/analises_complementares/`): sensibilidade (Tabela 4 do artigo), divergências entre bulas
+  da mesma estatina e VigiMed, com os resultados agregados.
+- **README:** a validação independente (kappa, 12 bulas) aparece antes da concordância no conjunto de desenvolvimento; uso de IA
+  explicado; limitações de hifenização e de validação preliminar; contagem correta dos testes.
+- `bulario/texto.py`: docstring indica o Xpdf 4.00.
+
 ## 0.2.0 (16/11/2026) — versão do artigo do XVIII EICEA
 Autores: Elivan da Silva; Lohana Souza Galvão; Ana Beatriz Lucena Brito; Iara Leão Luna de Souza (orientadora).
 - Corpus: 92 bulas de cinco estatinas com registro ativo (7 incluídas após a revisão da lista de registros: B086–B092).

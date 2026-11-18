@@ -30,7 +30,7 @@ def test_corpus_consistente_com_registros():
 def test_referencia_consistente_com_drugscom():
     p = os.path.join(D, "drugscom_major_2026-11-13.json")
     if not os.path.exists(p):
-        pytest.skip("lista bruta do Drugs.com fora do repositório do GitHub (está no pacote do Zenodo)")
+        pytest.skip("lista bruta do Drugs.com não é redistribuída (termos de uso do site); coloque a sua própria consulta em dados/")
     ref = ler("interacoes_graves_referencia.csv")
     js = json.load(open(os.path.join(D, "drugscom_major_2026-11-13.json"), encoding="utf-8"))["dados"]
     n = {k: len([x for x in v["major"] if x not in ("liver disease", "renal dysfunction")]) for k, v in js.items()}

@@ -1,7 +1,7 @@
 {
   "title": "Extrator de bulas do Bulário Eletrônico da Anvisa e dados do estudo de interações graves em bulas de estatinas",
   "upload_type": "software",
-  "description": "Ferramenta aberta que transforma bulas profissionais em PDF (RDC 47/2009) do Bulário Eletrônico da Anvisa em dados estruturados e banco pesquisável, e reproduz com um comando o estudo de completude das interações medicamentosas graves nas bulas brasileiras de estatinas (92 bulas; referência Drugs.com, 13/11/2026). O motor de classificação é configurável por tabelas (fármacos, classes e expressões de manejo). Licenças: código MIT; dados produzidos no estudo CC BY 4.0; a lista de interações graves do Drugs.com não é coberta pela CC BY (ver LICENSE-DATA). Versão auditada antes da publicação; mudanças e decisões em NOTAS_DE_VERSAO.md.",
+  "description": "Ferramenta aberta que transforma bulas profissionais em PDF (RDC 47/2009) do Bulário Eletrônico da Anvisa em dados estruturados e banco pesquisável, e reproduz com um comando o estudo de completude das interações medicamentosas graves nas bulas brasileiras de estatinas (92 bulas; referência Drugs.com, 13/11/2026). O motor de classificação é configurável por tabelas (fármacos, classes e expressões de manejo). Licenças: código MIT; dados produzidos no estudo CC BY 4.0. Desde a versão 0.2.1 a lista bruta do Drugs.com não é redistribuída (termos de uso do site); ficam só os pares do estudo em DCB (ver LICENSE-DATA). Versão auditada antes da publicação; mudanças e decisões em NOTAS_DE_VERSAO.md.",
   "creators": [
     {
       "name": "Silva, Elivan da",
@@ -41,7 +41,7 @@
   ],
   "license": "MIT",
   "language": "por",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "related_identifiers": [
     {
       "identifier": "https://github.com/sr-elivan/bulario-anvisa-extrator",

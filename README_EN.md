@@ -19,7 +19,7 @@ python -m pytest tests                     # 76 tests (engine configuration, rul
 Each PDF is identified by the registration number printed inside it (file names are ignored), and its SHA-1 is checked against
 `dados/corpus_bulas.csv`. With the same PDFs, results are identical to the published ones (tested from the .zip in a fresh folder with 134 randomly named PDFs: 92 inserts, 4,211 identical pairs).
 The automatic pre-classification (engine v2, sentence-level, codebook-based; 99.7% agreement with a full AI-assisted reference reading of the development set, 95% on a blind external test) is a suggestion; in the study, all 4,211 pairs were reviewed by the first rater (1 changed, annotation only;
-`dados/classificacao_revisada.csv`) and a sample was rated blind by a second rater. Code: MIT. Data: see `LICENSE-DATA` (study data CC BY 4.0; Anvisa open data; Drugs.com content is not CC BY).
+`dados/classificacao_revisada.csv`) and a sample was rated blind by a second rater. Code: MIT. Data: see `LICENSE-DATA` (study data CC BY 4.0; Anvisa open data). Since v0.2.1 the raw Drugs.com list is not redistributed (site terms of use); `dados/interacoes_graves_referencia.csv` keeps only the study pairs in Brazilian names (DCB).
 Authors: Elivan da Silva (ORCID 0009-0005-9191-7846); Lohana Souza Galvão (ORCID 0009-0006-9034-9004); Ana Beatriz Lucena Brito
 (ORCID 0009-0000-8860-5001); Iara Leão Luna de Souza (ORCID 0000-0002-5309-2979), supervisor. Release notes: `NOTAS_DE_VERSAO.md` (Portuguese).
 

@@ -7,7 +7,8 @@ com o nome em DCB e a situação de registro no Brasil.
   python ferramentas/gerar_referencia.py --anvisa PASTA_DADOS_ABERTOS [--drugscom dados/drugscom_major_2026-11-13.json]
 
 Para uma lista nova do Drugs.com, monte um JSON no mesmo formato ({"dados": {"atorvastatin": {"major": [...]}, ...}}) a partir
-das páginas https://www.drugs.com/drug-interactions/<estatina>-index.html?filter=3 (consulta manual).
+das páginas https://www.drugs.com/drug-interactions/<estatina>-index.html?filter=3 (consulta manual). Desde a versão 0.2.1
+esse JSON não é redistribuído (termos de uso do Drugs.com): cada usuário faz a própria consulta.
 """
 import argparse, json, os, sys
 
@@ -34,7 +35,7 @@ def gerar(json_drugs, pasta_anvisa):
             if f in NAO_FARMACO:
                 continue
             pt, at, tot = reg[f]
-            linhas.append({"estatina": EST[en_est], "farmaco_drugscom": f, "farmaco_dcb": pt, "registros_ativos_brasil": at,
+            linhas.append({"estatina": EST[en_est], "farmaco_dcb": pt, "registros_ativos_brasil": at,
                            "registros_total_brasil": tot, "registro_ativo_no_brasil": "Sim" if at else "Não"})
     return pd.DataFrame(linhas).sort_values(["estatina", "farmaco_dcb"])
 

@@ -31,11 +31,11 @@ Todos os CSV usam `;` como separador e UTF-8 com BOM. Registros MS têm 9 dígit
 | coluna | descrição |
 |---|---|
 | `estatina` | estatina (DCB) |
-| `farmaco_drugscom` | nome do fármaco interagente no Drugs.com (inglês) |
 | `farmaco_dcb` | nome em português: Denominação Comum Brasileira, quando existe (fármacos sem registro no Brasil podem não ter DCB) |
 | `registros_ativos_brasil`, `registros_total_brasil`, `registro_ativo_no_brasil` | registros do fármaco interagente no Brasil (dados abertos) |
 
-## `drugscom_major_2026-11-13.json` (só no pacote do Zenodo, não no GitHub) — listas *major* por estatina, como publicadas (inclui “liver disease”/“renal dysfunction”, interações com doença excluídas na análise)
+## Lista bruta do Drugs.com — retirada na versão 0.2.1
+A lista consultada em 13/11/2026 (`drugscom_major_2026-11-13.json`, na versão 0.2.0) não é mais redistribuída, por causa dos termos de uso do site (ver `LICENSE-DATA`). Para recriar a referência, faça a sua própria consulta e use `ferramentas/gerar_referencia.py`.
 
 ## `amostra_validacao.csv` — 12 bulas (1 por estatina × categoria, sorteada entre as bulas do lote 1; semente 2026; recriada por `estudo/amostra.py`)
 

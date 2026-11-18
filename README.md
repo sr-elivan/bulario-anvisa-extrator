@@ -34,12 +34,12 @@ python extrair.py --help                                               # extrai 
 2026), e uma base aberta de bulas brasileiras. Sugestões e correções são bem-vindas nas *issues*.
 
 **Como citar:** Silva, E. da; Galvão, L. S.; Brito, A. B. L.; Souza, I. L. L. de. *Extrator de bulas do Bulário Eletrônico
-da Anvisa e dados do estudo de interações graves em bulas de estatinas*. Versão 0.2.0. Zenodo, 2026.
+da Anvisa e dados do estudo de interações graves em bulas de estatinas*. Versão 0.2.1. Zenodo, 2026.
 DOI: [10.5281/zenodo.24205712](https://doi.org/10.5281/zenodo.24205712). O botão “Cite this repository” usa o `CITATION.cff`.
 
 ---
 
-## Extrator de bulas do Bulário Eletrônico da Anvisa (v0.2.0)
+## Extrator de bulas do Bulário Eletrônico da Anvisa (v0.2.1)
 
 Código e dados do estudo **“Informação sobre interações medicamentosas graves nas bulas brasileiras de estatinas:
 estudo documental de concordância com base de referência internacional”**.
@@ -125,7 +125,7 @@ passaram nos testes e no nível 1.
 - Testado em Windows 11 (Python 3.13, pdftotext 4.00). Não há código específico de Windows, mas Linux/Mac não foram testados.
 
 ## Testes automatizados
-`python -m pytest tests` executa 80 testes; sem os PDFs e sem a lista bruta do Drugs.com (não incluída no GitHub), 77 passam e 3 são
+`python -m pytest tests` executa 80 testes; sem os PDFs e sem a lista bruta do Drugs.com (não redistribuída), 77 passam e 3 são
 pulados. Eles cobrem: configuração do motor (as tabelas reproduzem as regras do estudo, a planilha equivale
 aos CSV, configurações inválidas são recusadas e uma configuração alterada muda o motor), regras (radicais DCB, nome só no início da palavra, classes, manejo, negação, leitura do registro MS, cada regra do motor v2 com trechos reais),
 uma bula **sintética** gerada no próprio teste que percorre todo o fluxo (extração → banco → identificação → pré-classificação),
@@ -166,7 +166,7 @@ heurísticas — confira sempre no texto da seção, que é guardado na íntegra
   `amostra.py` (sorteio da amostra de validação, semente 2026),
   `classificar.py` (motor v2, por frase), `preclassificar.py` (motor v1, versão 0.1.0), `estatisticas.py` (completude, Kruskal-Wallis, Mann-Whitney).
 - `dados/` – `interacoes_graves_referencia.csv`
-  (pares estatina × fármaco, DCB, registro ativo no Brasil; a lista do Drugs.com foi obtida nas páginas públicas de interação
+  (pares estatina × fármaco em DCB e registro ativo no Brasil; a lista do Drugs.com, não redistribuída, foi obtida nas páginas públicas de interação
   de cada estatina em 13/11/2026 e conferida manualmente no site em 14/11/2026, cada estatina por uma de duas pesquisadoras:
   194 de 194 confirmadas como graves, nenhuma grave ausente — veja as licenças em `LICENSE-DATA`), `registros_estatinas.csv` (dados abertos da Anvisa, atualização
   13/10/2026, + CMED), `corpus_bulas.csv` (registro, categoria, SHA-1, lote), `exclusoes_sem_bula.csv`, `amostra_validacao.csv`
@@ -181,8 +181,9 @@ heurísticas — confira sempre no texto da seção, que é guardado na íntegra
   pertinência às classes entregue à avaliadora (`Anexo_pertinencia_classes.pdf`).
 
 As bulas em PDF não são redistribuídas (documentos das empresas, públicos no Bulário).
-No GitHub, a lista bruta do Drugs.com (`drugscom_major_2026-11-13.json`) também fica de fora, porque não é coberta pela CC BY;
-ela está no pacote do Zenodo (DOI 10.5281/zenodo.24205712), junto com o restante do estudo.
+A lista bruta do Drugs.com também não é redistribuída: os termos de uso do site proíbem copiar ou redistribuir partes dele
+sem autorização. Ela saiu do depósito na versão 0.2.1; `interacoes_graves_referencia.csv` traz só os pares do estudo em DCB
+(detalhes em `LICENSE-DATA`).
 
 ## Versões
 Veja `NOTAS_DE_VERSAO.md` (o que mudou em cada versão e o que está planejado).

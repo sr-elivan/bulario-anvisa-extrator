@@ -1,15 +1,17 @@
 Dados em dados/ - licenças
 
 1. Dados produzidos neste estudo (corpus_bulas.csv, exclusoes_sem_bula.csv, amostra_validacao.csv, estatisticas_*.json,
-   preclassificacao_v02.csv, classificacao_revisada.csv, avaliacao_dupla/*.csv, os arquivos de configuracao/ e as colunas de mapeamento DCB/registro de interacoes_graves_referencia.csv): Creative Commons Atribuição 4.0 Internacional
+   preclassificacao_v02.csv, classificacao_revisada.csv, avaliacao_dupla/*.csv, os arquivos de configuracao/ e as colunas de registro no Brasil de interacoes_graves_referencia.csv): Creative Commons Atribuição 4.0 Internacional
    (CC BY 4.0) - https://creativecommons.org/licenses/by/4.0/deed.pt-br . Cite o depósito no Zenodo (DOI) e o artigo.
 
 2. registros_estatinas.csv e Estatinas_Brasil.xlsx derivam de dados abertos da Agência Nacional de Vigilância Sanitária
    (medicamentos registrados e lista de preços CMED - https://dados.anvisa.gov.br), de uso livre com citação da fonte.
 
-3. drugscom_major_2026-11-13.json e a coluna farmaco_drugscom de interacoes_graves_referencia.csv trazem apenas a lista de
-   fármacos que o Drugs.com classifica como interação grave (major) com cada estatina (https://www.drugs.com/drug_interactions.html,
-   consulta em 13/11/2026), sem nenhum texto do site, para permitir a verificação e a reprodução do estudo. Essa lista NÃO está
-   coberta pela licença CC BY; para outros usos, consulte os termos do Drugs.com.
+3. Drugs.com: os termos de uso do site (https://www.drugs.com/support/terms.html, lidos em 18/11/2026) proíbem copiar ou
+   redistribuir partes do site sem autorização. Por isso, desde a versão 0.2.1, a lista bruta consultada em 13/11/2026
+   (drugscom_major_2026-11-13.json) e os nomes dos fármacos como aparecem no site não fazem parte deste depósito.
+   interacoes_graves_referencia.csv traz só os pares estatina × fármaco do estudo, em DCB, com a situação de registro no Brasil,
+   necessários para verificar a classificação; a seleção desses pares vem da consulta ao Drugs.com e NÃO está coberta pela CC BY.
+   Para recriar a referência, faça a sua própria consulta (ferramentas/gerar_referencia.py).
 
 O código (pastas bulario/, estudo/, ferramentas/, tests/ e os .py da raiz) é MIT (LICENSE).
