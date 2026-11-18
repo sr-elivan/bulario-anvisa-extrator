@@ -1,0 +1,65 @@
+{
+ "total": {
+  "combinacoes": 194,
+  "variam": 14,
+  "variam_cobertura": 6,
+  "variam_forma": 13,
+  "variam_manejo": 8,
+  "pares": 4211,
+  "pares_fora_da_moda": 32,
+  "bulas": 92,
+  "bulas_com_divergencia": 16
+ },
+ "por_estatina": {
+  "atorvastatina": {
+   "bulas": 19,
+   "combinacoes": 49,
+   "variam": 5,
+   "variam_cobertura": 1,
+   "variam_forma": 5,
+   "variam_manejo": 2,
+   "pares": 931,
+   "pares_fora_da_moda": 7
+  },
+  "pitavastatina": {
+   "bulas": 10,
+   "combinacoes": 20,
+   "variam": 0,
+   "variam_cobertura": 0,
+   "variam_forma": 0,
+   "variam_manejo": 0,
+   "pares": 200,
+   "pares_fora_da_moda": 0
+  },
+  "pravastatina": {
+   "bulas": 2,
+   "combinacoes": 20,
+   "variam": 4,
+   "variam_cobertura": 4,
+   "variam_forma": 4,
+   "variam_manejo": 4,
+   "pares": 40,
+   "pares_fora_da_moda": 4
+  },
+  "rosuvastatina": {
+   "bulas": 37,
+   "combinacoes": 40,
+   "variam": 4,
+   "variam_cobertura": 0,
+   "variam_forma": 3,
+   "variam_manejo": 1,
+   "pares": 1480,
+   "pares_fora_da_moda": 20
+  },
+  "sinvastatina": {
+   "bulas": 24,
+   "combinacoes": 65,
+   "variam": 1,
+   "variam_cobertura": 1,
+   "variam_forma": 1,
+   "variam_manejo": 1,
+   "pares": 1560,
+   "pares_fora_da_moda": 1
+  }
+ }
+}

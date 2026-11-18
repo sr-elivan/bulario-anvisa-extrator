@@ -1,0 +1,15 @@
+﻿estatina;farmaco_dcb;bulas;citacao;manejo;varia_cobertura;varia_forma;varia_manejo;bulas_divergentes
+atorvastatina;daptomicina;19;"nominal 16; nao citada 3";"contraindicar/evitar 16; nao se aplica 3";1;1;1;B003, B005, B013
+atorvastatina;fenofibrato;19;"nominal 18; classe 1";limite de dose 19;0;1;0;B009
+atorvastatina;genfibrozila;19;"nominal 18; classe 1";limite de dose 19;0;1;0;B009
+atorvastatina;letermovir;19;"nominal 18; classe 1";"limite de dose 18; sem orientacao 1";0;1;1;B005
+atorvastatina;simeprevir;19;"nominal 18; classe 1";limite de dose 19;0;1;0;B005
+pravastatina;leflunomida;2;"nao citada 1; classe 1";"nao se aplica 1; sem orientacao 1";1;1;1;B031
+pravastatina;resmetirom;2;"nao citada 1; classe 1";"nao se aplica 1; sem orientacao 1";1;1;1;B031
+pravastatina;teriflunomida;2;"nao citada 1; classe 1";"nao se aplica 1; sem orientacao 1";1;1;1;B031
+pravastatina;ácido bempedoico;2;"nao citada 1; classe 1";"nao se aplica 1; sem orientacao 1";1;1;1;B031
+rosuvastatina;clopidogrel;37;nominal 37;"sem orientacao 33; limite de dose 4";0;0;1;B037, B039, B048, B062
+rosuvastatina;momelotinibe;37;"nominal 32; classe 5";limite de dose 37;0;1;0;B037, B039, B048, B056, B062
+rosuvastatina;tafamidis;37;"nominal 36; classe 1";limite de dose 37;0;1;0;B015
+rosuvastatina;vadadustate;37;"nominal 27; classe 10";limite de dose 37;0;1;0;B015, B035, B037, B039, B044, B048, B052, B056, B058, B062
+sinvastatina;daptomicina;24;"nominal 23; nao citada 1";"contraindicar/evitar 23; nao se aplica 1";1;1;1;B072

@@ -1,0 +1,57 @@
+﻿estatina;farmaco_dcb;notificacoes;graves;musculares;rabdomiolise;bulas;citam;nominal;manejo
+sinvastatina;anlodipino;346;235;12;1;24;24;24;limite de dose
+rosuvastatina;clopidogrel;227;175;8;0;37;37;37;sem orientacao
+sinvastatina;amiodarona;97;68;7;0;24;24;24;limite de dose
+sinvastatina;morfina;85;36;1;0;24;0;0;
+rosuvastatina;fenofibrato;41;32;0;0;37;37;37;sem orientacao
+atorvastatina;leflunomida;33;20;0;0;19;0;0;
+sinvastatina;leflunomida;32;26;0;0;24;24;0;limite de dose
+rosuvastatina;ticagrelor;22;14;0;0;37;37;37;limite de dose
+sinvastatina;fluconazol;21;12;0;0;24;24;0;limite de dose
+rosuvastatina;leflunomida;19;15;1;0;37;37;0;limite de dose
+sinvastatina;diltiazem;17;14;0;0;24;24;24;limite de dose
+atorvastatina;colchicina;16;10;0;0;19;19;19;monitorar
+sinvastatina;levanlodipino;16;12;1;0;24;24;0;sem orientacao
+sinvastatina;lenalidomida;16;14;0;0;24;0;0;
+atorvastatina;fluconazol;15;8;0;0;19;19;0;limite de dose
+rosuvastatina;colchicina;12;11;0;0;37;0;0;
+atorvastatina;ciclosporina;12;7;1;0;19;19;19;limite de dose
+atorvastatina;fenofibrato;11;11;0;0;19;19;18;limite de dose
+rosuvastatina;lenalidomida;9;9;0;0;37;0;0;
+rosuvastatina;regorafenibe;9;9;1;0;37;37;37;limite de dose
+atorvastatina;cetoconazol;9;3;0;0;19;19;0;limite de dose
+sinvastatina;claritromicina;8;6;0;0;24;24;24;contraindicar/evitar
+sinvastatina;rifampicina;8;3;0;0;24;24;0;sem orientacao
+atorvastatina;claritromicina;6;3;0;0;19;19;19;limite de dose
+sinvastatina;ciclosporina;6;4;1;0;24;24;24;contraindicar/evitar
+sinvastatina;fenofibrato;6;4;0;0;24;24;24;monitorar
+atorvastatina;lenalidomida;6;4;1;0;19;0;0;
+sinvastatina;colchicina;5;2;0;0;24;24;24;monitorar
+atorvastatina;daptomicina;5;0;0;0;19;16;16;contraindicar/evitar
+atorvastatina;voriconazol;5;4;0;0;19;19;0;limite de dose
+atorvastatina;rifampicina;5;4;0;0;19;19;19;monitorar
+sinvastatina;daptomicina;4;2;0;0;24;23;23;contraindicar/evitar
+rosuvastatina;ciclosporina;4;3;0;0;37;37;37;limite de dose
+atorvastatina;ritonavir;3;3;0;0;19;19;19;limite de dose
+rosuvastatina;cetoconazol;3;2;0;0;37;37;37;monitorar
+atorvastatina;eritromicina;3;2;0;0;19;19;19;limite de dose
+rosuvastatina;daptomicina;3;2;1;1;37;0;0;
+rosuvastatina;darolutamida;3;3;0;0;37;37;37;limite de dose
+sinvastatina;verapamil;3;3;0;0;24;24;24;limite de dose
+sinvastatina;cetoconazol;3;2;0;0;24;24;24;contraindicar/evitar
+sinvastatina;voriconazol;2;1;0;0;24;24;24;contraindicar/evitar
+rosuvastatina;ritonavir;2;0;0;0;37;37;37;limite de dose
+rosuvastatina;darunavir;2;1;0;0;37;37;37;limite de dose
+sinvastatina;clofibrato;2;2;0;0;24;24;0;limite de dose
+pitavastatina;lenalidomida;2;2;0;0;10;0;0;
+atorvastatina;itraconazol;2;0;0;0;19;19;19;limite de dose
+atorvastatina;danazol;2;0;0;0;19;0;0;
+atorvastatina;darunavir;2;2;0;0;19;19;19;limite de dose
+pitavastatina;fenofibrato;1;1;0;0;10;10;10;monitorar
+pitavastatina;leflunomida;1;1;0;0;10;0;0;
+atorvastatina;posaconazol;1;0;0;0;19;19;0;limite de dose
+atorvastatina;ranolazina;1;0;0;0;19;19;0;sem orientacao
+rosuvastatina;momelotinibe;1;1;1;0;37;37;32;limite de dose
+sinvastatina;eritromicina;1;1;0;0;24;24;24;contraindicar/evitar
+sinvastatina;itraconazol;1;0;0;0;24;24;24;contraindicar/evitar
+sinvastatina;ácido bempedoico;1;1;1;0;24;24;0;sem orientacao

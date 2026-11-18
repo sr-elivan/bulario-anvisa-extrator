@@ -1,0 +1,108 @@
+{
+ "fonte": "Anvisa, dados abertos VigiMed (VigiMed_Notificacoes/Medicamentos/Reacoes.csv)",
+ "periodo_inclusao_no_sistema": [
+  "2018-11-26",
+  "2026-09-13"
+ ],
+ "notificacoes_na_base": 363249,
+ "papeis_medicamento_base": {
+  "Suspeito": 480730,
+  "Concomitante": 209821,
+  "Medicamento não administrado": 14143,
+  "Interação": 2820,
+  "": 1230
+ },
+ "notificacoes_estatina_bruto": 7078,
+ "duplicatas_removidas": 58,
+ "A_estatina_suspeita_ou_interacao": {
+  "notificacoes": 1217,
+  "graves": 730,
+  "graves_pct": 60.0,
+  "eventos_musculares": 121,
+  "eventos_musculares_pct": 9.9,
+  "rabdomiolise": 31,
+  "rabdomiolise_pct": 2.5,
+  "interacao_codificada": 37,
+  "interacao_codificada_pct": 3.0,
+  "com_farmaco_de_interacao_grave": 111,
+  "com_farmaco_de_interacao_grave_pct": 9.1,
+  "graves_com_par_pct": 10.8,
+  "musculares_com_par": 13,
+  "musculares_com_par_pct": 10.7,
+  "rabdo_com_par": 2,
+  "rabdo_com_par_pct": 6.5
+ },
+ "B_estatina_qualquer_papel": {
+  "notificacoes": 7020,
+  "graves": 5119,
+  "graves_pct": 72.9,
+  "eventos_musculares": 295,
+  "eventos_musculares_pct": 4.2,
+  "rabdomiolise": 35,
+  "rabdomiolise_pct": 0.5,
+  "interacao_codificada": 214,
+  "interacao_codificada_pct": 3.0,
+  "com_farmaco_de_interacao_grave": 1078,
+  "com_farmaco_de_interacao_grave_pct": 15.4,
+  "graves_com_par_pct": 14.6,
+  "musculares_com_par": 34,
+  "musculares_com_par_pct": 11.5,
+  "rabdo_com_par": 2,
+  "rabdo_com_par_pct": 5.7
+ },
+ "por_estatina": {
+  "atorvastatina": {
+   "notificacoes_qualquer_papel": 1771,
+   "notificacoes_suspeita": 287,
+   "graves": 1183,
+   "musculares": 78,
+   "rabdomiolise": 11,
+   "com_par_grave": 130
+  },
+  "rosuvastatina": {
+   "notificacoes_qualquer_papel": 2674,
+   "notificacoes_suspeita": 439,
+   "graves": 2140,
+   "musculares": 109,
+   "rabdomiolise": 9,
+   "com_par_grave": 348
+  },
+  "sinvastatina": {
+   "notificacoes_qualquer_papel": 2527,
+   "notificacoes_suspeita": 498,
+   "graves": 1775,
+   "musculares": 113,
+   "rabdomiolise": 15,
+   "com_par_grave": 601
+  },
+  "pravastatina": {
+   "notificacoes_qualquer_papel": 15,
+   "notificacoes_suspeita": 2,
+   "graves": 12,
+   "musculares": 0,
+   "rabdomiolise": 0,
+   "com_par_grave": 0
+  },
+  "pitavastatina": {
+   "notificacoes_qualquer_papel": 159,
+   "notificacoes_suspeita": 27,
+   "graves": 116,
+   "musculares": 11,
+   "rabdomiolise": 0,
+   "com_par_grave": 4
+  }
+ },
+ "pares_notificados": 1178,
+ "pares_por_citacao_nas_bulas": {
+  "todas": 1000,
+  "nenhuma": 169,
+  "algumas": 9
+ },
+ "pares_por_manejo_nas_bulas": {
+  "limite de dose": 649,
+  "sem orientacao": 294,
+  "": 169,
+  "monitorar": 36,
+  "contraindicar/evitar": 30
+ }
+}

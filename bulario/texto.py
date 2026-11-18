@@ -34,7 +34,7 @@ def norm(s):
 
 
 def pdf_para_paginas(pdf):
-    """Texto por página: pdftotext -layout (Poppler); se faltarem seções (bula em 2 colunas), tenta o PyMuPDF."""
+    """Texto por página: pdftotext -layout (Xpdf 4.00, versão usada no estudo; Poppler não testado); se faltarem seções (bula em 2 colunas), tenta o PyMuPDF."""
     exe = shutil.which("pdftotext")
     if exe:
         r = subprocess.run([exe, "-layout", "-enc", "UTF-8", pdf, "-"],

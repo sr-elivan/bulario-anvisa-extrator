@@ -10,15 +10,19 @@
 classe), **onde cita?** e **qual conduta indica?** (contraindicar/evitar, limitar a dose, monitorar ou nenhuma). Cada decisão
 vem com a frase da bula que a justifica, para que uma pessoa possa conferir.
 
-Não é inteligência artificial: são regras explícitas, escritas num livro de códigos (`docs/LIVRO_DE_CODIGOS.md`), e o
-vocabulário (fármacos, classes, expressões de conduta) fica em planilhas (`configuracao/`), não no código.
+O motor não é um modelo de inteligência artificial: são regras explícitas e determinísticas, escritas num livro de códigos
+(`docs/LIVRO_DE_CODIGOS.md`), e o vocabulário (fármacos, classes, expressões de conduta) fica em planilhas (`configuracao/`),
+não no código. O código foi escrito com apoio de IA generativa (Claude, via Claude Code), e a leitura de referência usada para
+desenvolver as regras também foi feita com essa ferramenta; o artigo declara cada uso.
 
 | Estudo das estatinas (92 bulas, 4.211 pares) | |
 |---|---|
-| Acerto na citação, frente a uma leitura de referência | **100%** |
-| Acerto no manejo (3.846 de 3.858 pares) | **99,7%** |
-| Concordância entre avaliadores humanos (kappa) | **0,86** citação · **0,54** manejo |
+| Concordância entre avaliadores, segunda avaliadora às cegas (12 bulas, 477 pares; kappa) | **0,86** citação · **0,54** manejo |
+| Concordância com a leitura de referência, no conjunto em que as regras foram desenvolvidas¹ | 100% citação · 99,7% manejo |
 | Completude mediana das bulas | **82,5%** das interações graves citadas |
+
+¹ Não é acurácia independente: a leitura de referência foi feita com apoio de IA, nas mesmas 85 bulas usadas para ajustar as
+regras. A validação do método é preliminar (ver as limitações do artigo e a seção "Limitações conhecidas" abaixo).
 
 ```bash
 pip install -r requirements.txt
@@ -106,21 +110,33 @@ passaram nos testes e no nível 1.
   combinação ou de subpopulação, contraindicação condicionada à dose, tabela de exposição com regra de ajuste de dose, grafias
   erradas da bula). Concordância com a leitura integral de referência das 85 bulas do lote 1: 100% citação, 100% local (a leitura partiu do mesmo texto segmentado; ver a auditoria abaixo), 99,7% manejo (conjunto de
   desenvolvimento; a leitura de referência foi assistida por IA, ver o artigo); em 100 frases de bulas de OUTROS medicamentos
-  lidas às cegas: 95% no manejo. O motor v1 (`--motor v1`) aplica as regras da versão 0.1.0 (por janela de caracteres).
+  lidas às cegas: 95% no manejo (gabarito feito com apoio da mesma ferramenta de IA; serve como teste de regressão, não como
+  validação independente). O motor v1 (`--motor v1`) aplica as regras da versão 0.1.0 (por janela de caracteres).
 - A extração depende do padrão da RDC nº 47/2009; bulas fora do padrão ou escaneadas podem ter seções faltando
   (o campo `problemas` de cada JSON avisa).
 - A busca de citações usa nomes em DCB e radicais; grafias muito diferentes podem escapar da pré-marcação.
 - O motor v2 depende da separação das frases: texto embaralhado pela extração do PDF (colunas, cabeçalhos no meio da frase)
   ainda causa erros pontuais (12 de 3.858 pares no lote 1, sempre para o lado mais restritivo).
+- Palavras hifenizadas na quebra de linha não são reunidas. No estudo, o único fármaco partido ("ciclos-porina", numa bula de
+  rosuvastatina) aparecia inteiro em outros trechos da mesma bula, sem efeito no resultado; em outras classes isso pode causar
+  omissão.
+- A validação é preliminar: as regras foram ajustadas e avaliadas nas mesmas bulas, e só 12 bulas tiveram avaliação humana
+  independente e às cegas.
 - Testado em Windows 11 (Python 3.13, pdftotext 4.00). Não há código específico de Windows, mas Linux/Mac não foram testados.
 
 ## Testes automatizados
-`python -m pytest tests` executa 76 testes (mais 2 de reprodução completa, que exigem os PDFs): configuração do motor (as tabelas reproduzem as regras do estudo, a planilha equivale
+`python -m pytest tests` executa 80 testes; sem os PDFs e sem a lista bruta do Drugs.com (não incluída no GitHub), 77 passam e 3 são
+pulados. Eles cobrem: configuração do motor (as tabelas reproduzem as regras do estudo, a planilha equivale
 aos CSV, configurações inválidas são recusadas e uma configuração alterada muda o motor), regras (radicais DCB, nome só no início da palavra, classes, manejo, negação, leitura do registro MS, cada regra do motor v2 com trechos reais),
 uma bula **sintética** gerada no próprio teste que percorre todo o fluxo (extração → banco → identificação → pré-classificação),
 a integridade dos dados congelados, o sorteio da amostra e a reprodução a partir da tabela de pares (pré-classificada e revisada). Com `BULARIO_PDFS=PASTA` também roda a reprodução completa
-(com os dois motores; deve terminar em “IDÊNTICO”). Os testes foram verificados por mutação: removendo de propósito uma
-regra do código ou uma expressão da configuração (contraindicação, exceção, retomada na frase seguinte), eles falham.
+(com os dois motores; deve terminar em “IDÊNTICO”). Os testes foram verificados por mutação feita à mão, sem ferramenta
+automatizada: removendo de propósito uma regra do código ou uma expressão da configuração (contraindicação, exceção, retomada
+na frase seguinte), eles falham. São testes de regressão e de unidade: garantem que o comportamento não mudou e que cada regra
+faz o que o livro de códigos diz, mas não medem acurácia contra um gabarito humano independente.
+
+As análises do artigo que não saem de `reproduzir_estudo.py` (Tabela 4, divergências entre bulas e VigiMed) estão em
+`estudo/analises_complementares/`.
 
 ## Configurar o motor (outras classes de medicamentos)
 Edite as tabelas de `configuracao/` (ou de uma cópia) e rode com `--config`. As instruções completas, com exemplos de expressões,
