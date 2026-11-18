@@ -4,7 +4,7 @@ title: "Extrator de bulas do Bulário Eletrônico da Anvisa e dados do estudo de
 version: 0.2.1
 date-released: 2026-11-18
 license: [MIT, CC-BY-4.0]
-doi: "10.5281/zenodo.24205712"
+doi: "10.5281/zenodo.24351825"
 repository-code: "https://github.com/sr-elivan/bulario-anvisa-extrator"
 authors:
   - family-names: "Silva"

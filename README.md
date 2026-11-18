@@ -1,6 +1,6 @@
 # bulario-anvisa-extrator
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24205712.svg)](https://doi.org/10.5281/zenodo.24205712)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24205711.svg)](https://doi.org/10.5281/zenodo.24205711)
 ![código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-blue)
 ![dados: CC BY 4.0](https://img.shields.io/badge/dados-CC%20BY%204.0-green)
 ![Python 3.13](https://img.shields.io/badge/python-3.13-informational)
@@ -35,7 +35,8 @@ python extrair.py --help                                               # extrai 
 
 **Como citar:** Silva, E. da; Galvão, L. S.; Brito, A. B. L.; Souza, I. L. L. de. *Extrator de bulas do Bulário Eletrônico
 da Anvisa e dados do estudo de interações graves em bulas de estatinas*. Versão 0.2.1. Zenodo, 2026.
-DOI: [10.5281/zenodo.24205712](https://doi.org/10.5281/zenodo.24205712). O botão “Cite this repository” usa o `CITATION.cff`.
+DOI: [10.5281/zenodo.24351825](https://doi.org/10.5281/zenodo.24351825). Todas as versões: [10.5281/zenodo.24205711](https://doi.org/10.5281/zenodo.24205711);
+o artigo cita a versão 0.2.0 ([10.5281/zenodo.24205712](https://doi.org/10.5281/zenodo.24205712)), que gerou os resultados. O botão “Cite this repository” usa o `CITATION.cff`.
 
 ---
 
